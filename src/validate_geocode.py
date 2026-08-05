@@ -5,18 +5,18 @@ Runs the synthetic dataset through Precisely address verification/
 standardization and geocoding, producing data/02_validated.csv with a
 before/after comparison.
 
-NOTE: Confirm exact endpoint paths, auth flow, and response field names
-against your live Precisely Data Integrity Suite trial docs at
-https://developer.precisely.com/ once you're signed up — free trials
-sometimes version their endpoints, so treat PRECISELY_VERIFY_URL and
-PRECISELY_GEOCODE_URL below as the two things most likely to need a
-one-line edit.
+Endpoints confirmed against the actual Data Integrity Suite "Geo Addressing"
+OpenAPI spec (Precisely trial account, 2026-08-04) — base host is
+api.cloud.precisely.com, not api.precisely.com, and auth is a plain API-key
+header, not an OAuth token exchange.
 
 Adds these columns to each record:
     verified_street, verified_city, verified_state, verified_zip
-    match_status        ("matched" | "partial" | "no_match")
+    verify_score         Precisely's 0-100 match confidence (from /v1/verify)
+    match_status         our own bucketing of verify_score: "matched" (>=90),
+                          "partial" (>0), "no_match" (verify call failed/no result)
     latitude, longitude
-    precisely_id         persistent location identifier, if returned
+    precisely_id          PB_KEY from customFields, if returned
 
 Usage:
     python src/validate_geocode.py --sample 10     # cheap smoke test
@@ -24,6 +24,7 @@ Usage:
 """
 
 import argparse
+import base64
 import csv
 import os
 import time
@@ -38,71 +39,86 @@ load_dotenv()
 API_KEY = os.getenv("PRECISELY_API_KEY")
 API_SECRET = os.getenv("PRECISELY_API_SECRET")
 
-# Confirm against current docs — placeholders based on the Data Integrity
-# Suite REST pattern at time of writing.
-PRECISELY_AUTH_URL = "https://api.precisely.com/oauth/token"
-PRECISELY_VERIFY_URL = "https://api.precisely.com/address/v1/verify"
-PRECISELY_GEOCODE_URL = "https://api.precisely.com/geocode/v1/lookup"
+BASE_URL = os.getenv("PRECISELY_BASE_URL", "https://api.cloud.precisely.com")
+VERIFY_URL = f"{BASE_URL}/v1/verify"
+GEOCODE_URL = f"{BASE_URL}/v1/geocode"
+
+_token = base64.b64encode(f"{API_KEY}:{API_SECRET}".encode()).decode()
+AUTH_HEADERS = {
+    "Authorization": f"Apikey {_token}",
+    "Content-Type": "application/json",
+}
 
 
-def get_access_token() -> str:
-    resp = requests.post(
-        PRECISELY_AUTH_URL,
-        data={"grant_type": "client_credentials"},
-        auth=(API_KEY, API_SECRET),
-        timeout=15,
-    )
-    resp.raise_for_status()
-    return resp.json()["access_token"]
-
-
-def verify_address(token: str, record: dict) -> dict:
-    payload = {
-        "addressLines": [
-            f"{record['street_number']} {record['street_name']} {record['unit']}".strip(),
-        ],
-        "city": record["city"],
-        "state": record["state"],
-        "zip": record["zip"],
-        "country": "US",
-    }
-    resp = requests.post(
-        PRECISELY_VERIFY_URL,
-        json=payload,
-        headers={"Authorization": f"Bearer {token}"},
-        timeout=15,
-    )
-    if resp.status_code != 200:
-        return {"match_status": "no_match"}
-    data = resp.json()
+def _address_payload(record: dict) -> dict:
+    street_line = f"{record['street_number']} {record['street_name']} {record['unit']}".strip()
     return {
-        "verified_street": data.get("formattedStreet", ""),
-        "verified_city": data.get("city", ""),
-        "verified_state": data.get("state", ""),
-        "verified_zip": data.get("zip", ""),
-        "match_status": data.get("matchStatus", "no_match"),
-        "precisely_id": data.get("preciselyId", ""),
+        "addressId": "1",
+        "addressLines": [street_line],
+        "country": "USA",
+        "city": record["city"],
+        "admin1": record["state"],
+        "postalCode": record["zip"],
     }
 
 
-def geocode_address(token: str, record: dict) -> dict:
+def verify_address(record: dict) -> dict:
+    payload = {
+        "preferences": {"maxResults": 1, "returnAllInfo": True},
+        "addresses": [_address_payload(record)],
+    }
+    resp = requests.post(VERIFY_URL, json=payload, headers=AUTH_HEADERS, timeout=15)
+    if resp.status_code not in (200, 206):
+        return {"match_status": "no_match", "verify_score": ""}
+
+    responses = resp.json().get("responses", [])
+    if not responses or responses[0].get("status") != "OK" or not responses[0].get("results"):
+        return {"match_status": "no_match", "verify_score": ""}
+
+    result = responses[0]["results"][0]
+    score = result.get("score", 0)
+    addr = result.get("address", {})
+    match_status = "matched" if score >= 90 else "partial" if score > 0 else "no_match"
+
+    return {
+        "verified_street": addr.get("formattedStreetAddress", ""),
+        "verified_city": addr.get("city", {}).get("shortName", ""),
+        "verified_state": addr.get("admin1", {}).get("shortName", ""),
+        "verified_zip": addr.get("postalCode", ""),
+        "verify_score": score,
+        "match_status": match_status,
+        "precisely_id": result.get("customFields", {}).get("PB_KEY", ""),
+    }
+
+
+def geocode_address(record: dict) -> dict:
     if record.get("match_status") == "no_match":
         return {"latitude": "", "longitude": ""}
+
     payload = {
-        "address": f"{record.get('verified_street', '')}, "
-        f"{record.get('verified_city', '')}, "
-        f"{record.get('verified_state', '')} {record.get('verified_zip', '')}"
+        "preferences": {"maxResults": 1, "returnAllInfo": True},
+        "addresses": [_address_payload(record)],
     }
-    resp = requests.post(
-        PRECISELY_GEOCODE_URL,
-        json=payload,
-        headers={"Authorization": f"Bearer {token}"},
-        timeout=15,
-    )
-    if resp.status_code != 200:
+    resp = requests.post(GEOCODE_URL, json=payload, headers=AUTH_HEADERS, timeout=15)
+    if resp.status_code not in (200, 206):
         return {"latitude": "", "longitude": ""}
-    data = resp.json()
-    return {"latitude": data.get("lat", ""), "longitude": data.get("lon", "")}
+
+    responses = resp.json().get("responses", [])
+    if not responses or responses[0].get("status") != "OK" or not responses[0].get("results"):
+        return {"latitude": "", "longitude": ""}
+
+    coords = (
+        responses[0]["results"][0]
+        .get("location", {})
+        .get("feature", {})
+        .get("geometry", {})
+        .get("coordinates", [])
+    )
+    if len(coords) != 2:
+        return {"latitude": "", "longitude": ""}
+    # GeoJSON order is [longitude, latitude]
+    longitude, latitude = coords
+    return {"latitude": latitude, "longitude": longitude}
 
 
 def main():
@@ -117,15 +133,11 @@ def main():
     if args.sample:
         records = records[: args.sample]
 
-    token = get_access_token()
-
     results = []
     match_counts = {"matched": 0, "partial": 0, "no_match": 0}
     for record in tqdm(records, desc="Verifying + geocoding"):
-        verify_result = verify_address(token, record)
-        record.update(verify_result)
-        geo_result = geocode_address(token, record)
-        record.update(geo_result)
+        record.update(verify_address(record))
+        record.update(geocode_address(record))
         results.append(record)
         match_counts[record.get("match_status", "no_match")] = (
             match_counts.get(record.get("match_status", "no_match"), 0) + 1
