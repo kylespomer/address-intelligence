@@ -93,7 +93,7 @@ def render_review_controls(policy_id: str) -> None:
             clear_review_status(policy_id)
             st.rerun()
     elif status == "ignored":
-        st.caption(f"🙈 Ignored — {info['reviewed_at']}")
+        st.caption(f"✖️ Ignored — {info['reviewed_at']}")
         if st.button("Undo", key=f"undo_{policy_id}"):
             clear_review_status(policy_id)
             st.rerun()
@@ -102,7 +102,7 @@ def render_review_controls(policy_id: str) -> None:
         if b1.button("🚩 Flag for Review", key=f"flag_{policy_id}", use_container_width=True):
             set_review_status(policy_id, "flagged_for_review")
             st.rerun()
-        if b2.button("🙈 Ignore", key=f"ignore_{policy_id}", use_container_width=True):
+        if b2.button("✖️ Ignore", key=f"ignore_{policy_id}", use_container_width=True):
             set_review_status(policy_id, "ignored")
             st.rerun()
 
