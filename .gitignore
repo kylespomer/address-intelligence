@@ -5,3 +5,4 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 .claude/settings.local.json
+data/05_review_status.csv
