@@ -24,8 +24,10 @@ Usage:
 """
 
 import csv
+import math
 import os
 from datetime import datetime, timezone
+from urllib.parse import urlencode
 
 import pandas as pd
 import streamlit as st
@@ -33,6 +35,15 @@ import streamlit as st
 DATA_PATH = "data/04_ai_narratives.csv"
 REVIEW_STATUS_PATH = "data/05_review_status.csv"
 REVIEW_FIELDS = ["policy_id", "status", "reviewed_at"]
+
+# Esri World Imagery -- free satellite export, no API key required (unlike
+# Mapbox's satellite styles). A static image per card instead of an
+# interactive pydeck/deck.gl map: rendering one WebGL context per anomaly
+# card (6-7+ on a typical page) made the browser tab hang during testing --
+# a static thumbnail is lighter, more reliable, and plenty for a small
+# per-card preview where pan/zoom isn't needed.
+SATELLITE_EXPORT_URL = "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export"
+SATELLITE_HALF_SIZE_DEG = 0.0007  # ~ a couple hundred feet across, tight on the property
 
 st.set_page_config(page_title="Address Intelligence -- Anomaly Review", layout="wide")
 
@@ -81,6 +92,23 @@ def property_address(row: pd.Series) -> str:
     state = row.get("verified_state") or row.get("state", "")
     zip_code = row.get("verified_zip") or row.get("zip", "")
     return f"{street}, {city}, {state} {zip_code}".strip()
+
+
+def satellite_image_url(lat: float, lon: float) -> str:
+    # longitude degrees are narrower than latitude degrees away from the
+    # equator, so widen the lon span to keep the image roughly square
+    # instead of visibly stretched
+    lon_half = SATELLITE_HALF_SIZE_DEG / max(math.cos(math.radians(lat)), 0.15)
+    bbox = f"{lon - lon_half},{lat - SATELLITE_HALF_SIZE_DEG},{lon + lon_half},{lat + SATELLITE_HALF_SIZE_DEG}"
+    params = {
+        "bbox": bbox,
+        "bboxSR": 4326,
+        "imageSR": 4326,
+        "size": "400,300",
+        "format": "png32",
+        "f": "image",
+    }
+    return f"{SATELLITE_EXPORT_URL}?{urlencode(params)}"
 
 
 def render_review_controls(policy_id: str) -> None:
@@ -135,7 +163,8 @@ def render_anomaly_card(row: pd.Series) -> None:
         with right:
             lat, lon = row.get("latitude"), row.get("longitude")
             if pd.notna(lat) and pd.notna(lon):
-                st.map(pd.DataFrame({"lat": [lat], "lon": [lon]}), zoom=13)
+                st.image(satellite_image_url(lat, lon), use_container_width=True)
+                st.caption("Satellite imagery © Esri -- centered on the property")
             else:
                 st.caption("No coordinates available for this record.")
 
