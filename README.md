@@ -10,12 +10,17 @@ into an underwriter-ready decision, not just clean data.
 
 ```
 data/
+  reference/
+    real_addresses.csv     real US addresses pulled from Precisely's own
+                            property data -- the base every synthetic
+                            record is built from (see fetch_real_addresses.py)
   01_raw_synthetic.csv     synthetic dirty policyholder records
   02_validated.csv         after Precisely verification + geocoding
   03_enriched.csv          after location enrichment
   summary_stats.md         before/after match rates and coverage
 src/
-  generate_dataset.py      builds the synthetic dirty dataset
+  fetch_real_addresses.py  one-time pull of real addresses to seed the dataset
+  generate_dataset.py      builds the synthetic dirty dataset from real addresses
   validate_geocode.py      Precisely verification + geocoding calls
   enrich.py                Precisely location enrichment calls
   ai_layer.py              risk narrative + anomaly-flagging AI step
@@ -43,14 +48,18 @@ slides/                    8-10 slide deck (added separately)
 ## Running the pipeline
 
 ```
+python src/fetch_real_addresses.py  # one-time -> data/reference/real_addresses.csv
 python src/generate_dataset.py      # -> data/01_raw_synthetic.csv
 python src/validate_geocode.py      # -> data/02_validated.csv
 python src/enrich.py                # -> data/03_enriched.csv
 python src/ai_layer.py              # prints/saves risk narratives + anomaly flags
 ```
 
-Each script is safe to re-run against its own output — `validate_geocode.py` and `enrich.py`
-checkpoint progress so a failed run partway through doesn't cost you double credits on retry.
+`fetch_real_addresses.py` only needs to run once (its output is checked into the repo) — it
+pulls real addresses via Precisely's own property data so every synthetic record is built on a
+real base address before errors are injected. It supports `--resume` to pick up cities it
+couldn't reach on a prior run (the public API rate-limits after a burst of requests; see its
+docstring).
 
 ## Credit budget
 

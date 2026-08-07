@@ -1,351 +1,351 @@
 policy_id,policyholder_name,street_number,street_name,unit,city,state,zip,injected_error
-POL-000001,Lance Hoffman,1924,Angel Harbor,,New Roberttown,CO,29158,missing_unit
-POL-000002,James Howard,3757,Robinson Radail,Suite 026,Joshuaborough,WV,44619,misspelling
-POL-000003,Shannon Ray,60987,Munoz Valley,Apt. 781,Millerport,MP,82898,outdated_address
-POL-000004,Michael Miles,1635,Brandon Forks,Suite 131,Ramirezstad,GA,49021,clean
-POL-000005,Colleen Nguyen,534,Chelsea Extension,,East Steven,KY,84387,clean
-POL-000006,Emily Rios,77259,Jeremy Bypass,,Richardland,IL,74842,outdated_address
-POL-000007,Deborah Richards,206,Wilkerson Row,,Thomasberg,IA,98148,missing_unit
-POL-000008,Janice Carlson,7024,Cox Dam,,Lake Ernest,TX,55834,missing_unit
-POL-000009,Nathan Cortez,5614,Rice Plaza,Apt. 184,Danielchester Heights,GA,59971,zip_city_mismatch
-POL-000010,Phillip Ryan,5981,William Coves,,Meaganhaven,PA,26572,clean
-POL-000011,Keith Miller,811,Carol Overpass,,North Sarahport,IA,08093,clean
-POL-000012,Tanya Campos,6301,Cabrera Trace,,West Allison,PA,55962,missing_unit
-POL-000013,Austin Smith,6025,Jennifer Locks,,Samuelhaven,NV,16361,clean
-POL-000014,Andrea Young,850,Brianna Avenue,,Lake Crystalbury,CA,04618,clean
-POL-000015,Brent Jordan,1407,Lewis Curve,,Sanchezfort,AS,53855,clean
-POL-000016,Jerry Henderson,6327,Jenkins Way,Apt. 106,Laurenville,IA,25613,clean
-POL-000017,Carol Tucker,6077,Ford Well,Apt. 781,Lake Yvettetown Heights,CO,99272,zip_city_mismatch
-POL-000018,Rachel Mitchell,4474,Michelle Circle,,South Aaron,MS,35261,clean
-POL-000019,Amy Silva,1269,Moore Hill,,North Beth,ND,08490,missing_unit
-POL-000020,Kristopher Harvey,4110,Brian Pass,Apt. 219,Lake Michellefurt Heights,DE,75169,zip_city_mismatch
-POL-000021,Eugene Walton,9225,Sandoval Port,Suite 435,West Randy Heights,TN,85108,zip_city_mismatch
-POL-000022,Jaclyn Moore,1016,Albert Rd.,Apt. 183,Davidstad,FM,09517,misspelling
-POL-000023,Brandy Wilson,5268,Carr Vlaley,,Lake Lisaport,TN,14078,misspelling
-POL-000024,Mark Baker,3583,Julia Drives,,Juanborough Heights,VT,45443,zip_city_mismatch
-POL-000025,Jeremy Thornton,7617,King Vsita,Apt. 164,North Matthewberg,SC,34836,misspelling
-POL-000026,Jessica Williams,9297,Daniel Spurs,,New Barry,MN,76851,clean
-POL-000027,Justin Baxter,7119,Nolan Underpass,,West Jasonbury Heights,TN,13974,zip_city_mismatch
-POL-000028,Norman Cook,3693,Sara Freweay,,Port Lisa,FM,54541,misspelling
-POL-000029,Andrew Ruiz,1589,Pham Way,,West Erik,UT,14669,clean
-POL-000030,Jennifer Ramirez,2604,Lisa Mount,,Kevinbury,IN,03602,clean
-POL-000031,Alexander Wiley,7016,Tammy Harbors,,Darlenefurt Heights,TX,70783,zip_city_mismatch
-POL-000032,William Wilson,9863,White Greens,,North Candacestad,VA,41615,clean
-POL-000033,Nancy Gonzalez,9164,Jonathan Staiton,,Smithside,TX,94798,misspelling
-POL-000034,Mary Nguyen,1976,Jones Shores,,Cindyville,VA,39864,clean
-POL-000035,Lisa Turner,4471,Spencer Fields,,Ortegafurt Heights,TX,98560,zip_city_mismatch
-POL-000036,Daniel Kennedy,102231,Kevin Fords,,Floydmouth,NH,58406,outdated_address
-POL-000037,Curtis Johnson,4415,Donna Haven,,Clarencebury,TX,41188,clean
-POL-000038,Kathleen Sanchez,8417,Tracey Ridge,,South Robertshire,ID,94656,clean
-POL-000039,Amber Wright,4989,Patricia Wall,,Port Ronaldburgh,AS,91715,clean
-POL-000040,Jessica Meadows,3358,Stephen Unions,Suite 889,Stephaniemouth,RI,94777,clean
-POL-000041,Richard Washington,8937,Merritt Summit,,Colebury,MP,84080,clean
-POL-000042,Chris Reyes,57440,Joshua Club,,Jimmymouth,MD,71299,outdated_address
-POL-000043,Ross Price,6047,Jasmine Circles,,Russellside,NH,54997,clean
-POL-000044,Rebecca Hurst,5138,Melissa Track,,Karenchester,ND,98479,missing_unit
-POL-000045,Misty Pittman,9395,RobinsonM ews,,Johnsonmouth,TN,89517,misspelling
-POL-000046,Sean White,1233,Tina Place,,South Brittanytown,CO,84747,clean
-POL-000047,Paul Williams,88191,Gray Forest,Suite 556,Karenchester,KS,11236,outdated_address
-POL-000048,Travis Marshall,2805,Walker Cliff,Apt. 033,New Elijahberg,NJ,88248,clean
-POL-000049,Eric Byrd,7032,Wang Expressway,,Port Loriport,CT,76350,clean
-POL-000050,Michael Turner,3395,Sanders Stravenue,,North Brittany Heights,MP,82714,zip_city_mismatch
-POL-000051,Alexandria Fisher,6218,Laura Port,,West Amandastad,CA,66818,clean
-POL-000052,Roger Vargas,2082,Gracia Lake,Suite 262,Christinaside,WI,63873,misspelling
-POL-000053,Mary Rogers,9738,Christian Village,,West Nicolebury,WV,61411,clean
-POL-000054,Cheryl Allen,217,Rosales Falls,Suite 354,Joshuaview,OH,01831,clean
-POL-000055,Kevin Kennedy,3850,Freema nTrace,Apt. 777,North Kellyfurt,UT,32391,misspelling
-POL-000056,Bryan Lee,1260,Coleman Summit,,Michaelmouth,KY,40690,missing_unit
-POL-000057,Dr. Elizabeth Ward,8053,Julia Trcak,Apt. 337,Jennyhaven,PA,37594,misspelling
-POL-000058,Tony Little,4081,Smith Place,,West Brandon,AR,73030,clean
-POL-000059,Austin Vasquez,3219,Garcia Bridge,Suite 777,Jackton,KS,63117,clean
-POL-000060,Lisa Gibbs,103684,Edward Valleys,,Christopherbury,DE,73648,outdated_address
-POL-000061,Elizabeth Oliver DDS,987,Kimberly Light,,Kerrport,VI,77640,clean
-POL-000062,Michael Harrison,1712,Stacey Fords,Apt. 412,East Andrea,GA,00851,clean
-POL-000063,Joshua Holland,1890,Jesse Squares,,Kristinshire,TN,26429,missing_unit
-POL-000064,Terri Mason,7450,Serrano Cliffs,,Scottmouth,UT,40358,missing_unit
-POL-000065,Alicia Hubbard,7679,Kim Rapid,Apt. 659,Anthonybury,TX,75893,clean
-POL-000066,Kevin Walters,7360,Johnston Track,,South April,NV,36959,clean
-POL-000067,Tony Cervantes,1704,Costa Mountains,Suite 655,Port Eugenechester,UT,65443,clean
-POL-000068,April Booth,341,Shawn Island,,Marcusfurt,VI,67950,clean
-POL-000069,Kari Johnson,67980,Gutierrez Field,Suite 977,East Josephberg,LA,57925,outdated_address
-POL-000070,Bruce Collier,6670,Jennifer Inlet,,New Rickybury,MP,15372,missing_unit
-POL-000071,Charles Lee,135,Cantu Highway,,Robertfort,NJ,32447,missing_unit
-POL-000072,Charles Ryan MD,7554,Michelle Harbor,Suite 584,West Jessicashire,OR,87000,clean
-POL-000073,Jennifer Flores,71650,Gibson Islands,,Lake John,MS,31114,outdated_address
-POL-000074,Jessica Fox,4961,Thornton Valelys,Suite 627,East Wayneshire,MA,13655,misspelling
-POL-000075,Sarah Villarreal,8983,Smith Divide,Suite 217,Matthewfurt Heights,SD,11028,zip_city_mismatch
-POL-000076,Michael Mitchell,921,Finley Road,,Brennanton,RI,09469,clean
-POL-000077,James Thomas,8801,Julie Mews,Apt. 172,Rebeccaton,MD,07856,clean
-POL-000078,Cynthia Durham,1412,Kngiht Turnpike,,East Gregory,RI,50641,misspelling
-POL-000079,Megan Moore,3953,Jesse Route,,Stevetown,MH,61482,clean
-POL-000080,James Howard,9433,Landry Radial,Suite 647,Jamesfurt,PR,63836,clean
-POL-000081,Paula Beltran,1443,Haney Hill,,Port Dominiqueview,AL,74678,clean
-POL-000082,Melanie Taylor,8665,Wall Heights,,New John,WV,94994,missing_unit
-POL-000083,Jason Gonzalez,5247,Rebecca Rue,Apt. 470,Jessicaland Heights,PW,39181,zip_city_mismatch
-POL-000084,Gina Wilson,5015,Schmidt Groves,,West Robin,NJ,39185,clean
-POL-000085,Paul Baker,1288,Donald Fork,Suite 851,Smithside,DE,60110,clean
-POL-000086,Leonard Holland,9324,Carsno Landing,,Lake Jesustown,RI,74085,misspelling
-POL-000087,Brandy Chavez,8388,Blankenship Hollow,Suite 120,West Wendyville,CT,31276,clean
-POL-000088,Teresa Ramirez,1227,Matthews Stream,,South Diana Heights,MP,64640,zip_city_mismatch
-POL-000089,Vanessa Howard,2684,Robinson Mills,,Port Michael,TX,48648,clean
-POL-000090,Alison Buchanan,5056,Hill Crossing,,Davisborough,SD,84320,clean
-POL-000091,Linda Ramirez,8766,Vanessa Turnpike,Apt. 183,Port Molly,MA,19841,clean
-POL-000092,Hunter Kramer,5005,Vansesa Plains,,Laurenville,TN,03880,misspelling
-POL-000093,Ashley Gordon,4433,Smith Grenes,Apt. 268,Lake Brycemouth,WI,47954,misspelling
-POL-000094,Theodore Jones Jr.,2646,Jessica Way,Suite 700,Boonechester,TX,14651,clean
-POL-000095,Matthew Rich,5717,Cameron Harbor,Suite 698,Shawnchester,CT,92484,clean
-POL-000096,Emily Edwards,4425,Russell Forks,,Morganmouth,MO,55025,missing_unit
-POL-000097,Laurie Hoffman,69064,Brooks Drives,Suite 111,South Colinstad,AS,17555,outdated_address
-POL-000098,John Boone,822,Santiago Loop,Suite 604,Michaelshire,NY,28385,clean
-POL-000099,Sandra Adams,100637,Bruce Land,Apt. 493,Bruceside,AK,80323,outdated_address
-POL-000100,Kylie Morales,7107,Josuha Track,,Sandrastad,AL,24278,misspelling
-POL-000101,Paula Bradley,9038,Joyce Burgs,Apt. 836,Chavezburgh Heights,MN,41347,zip_city_mismatch
-POL-000102,Donald Fischer,9152,Nicole Drves,Apt. 901,Scottchester,NM,80071,misspelling
-POL-000103,Eric Clark,5150,Michael Creek,Suite 978,Brandonfurt,PA,07681,clean
-POL-000104,James Padilla,753,Kathryn Highway,,Davidfort,WA,56947,missing_unit
-POL-000105,Laura Mckinney,4188,Jones Wall,,South Andrewland Heights,VI,41534,zip_city_mismatch
-POL-000106,Anita Richard,99948,Roberts Lodge,,West Georgemouth,MP,90889,outdated_address
-POL-000107,Angela Schultz,2632,Ryan Locks,,South Monicamouth,IN,44156,missing_unit
-POL-000108,Craig Morrison,2762,Rebecca Keys,,Jessicaberg,IA,13975,clean
-POL-000109,Mrs. Tricia Stewart,6855,Gregory Trail,Suite 799,Maldonadoshire,SD,83770,clean
-POL-000110,Emily Hayes,99445,Jones Mills,,Laurashire,AR,46630,outdated_address
-POL-000111,Joanna Pacheco,4165,Miguel Heights,Apt. 199,Fordside,WY,97352,clean
-POL-000112,David Kim,1871,Marc Moutnains,Apt. 071,Toniland,NY,85190,misspelling
-POL-000113,Mark Cook,3744,Warren Ridge,Apt. 554,Ortizmouth,TX,78867,clean
-POL-000114,Emily Douglas,5828,Davis Springs,Suite 449,West Christopher,TN,19038,clean
-POL-000115,Katie Smith,3828,Anderson Station,Apt. 486,Lisahaven,CO,85176,clean
-POL-000116,Kimberly Rodgers,6628,White Forest,Suite 733,East Chris,PR,13757,clean
-POL-000117,Carol Kim,4673,Ebony Wells,Apt. 962,East Marie,WI,82386,clean
-POL-000118,Cheyenne Gregory,8885,Diaz tSravenue,Apt. 794,Youngbury,ME,61975,misspelling
-POL-000119,Brenda Wright,3025,Murray Haven,,Shawchester,GA,26675,clean
-POL-000120,Jeffrey Potts,98471,Sawyer Plaza,Apt. 814,Port Ethanmouth,MH,67787,outdated_address
-POL-000121,Brad Walker,5239,Lisa Keys,,South Brianhaven,MN,31404,clean
-POL-000122,Julie Gilbert,1994,Galvan Villages,Suite 220,Samanthafort,UT,18692,clean
-POL-000123,David Fowler,88346,Andrew Forge,Apt. 898,Rodriguezport,IA,39973,outdated_address
-POL-000124,Michelle Carter,8921,Brown Villages,,Carlsontown,SC,68052,clean
-POL-000125,Katie Smith,3328,Christina Graden,Suite 218,Carloshaven,ND,66997,misspelling
-POL-000126,Nicholas Fuller,5509,Williams Loaf,,Jontown,MI,09356,clean
-POL-000127,Michael Welch,2141,Anderson Knoll,,Lisaburgh Heights,MP,90243,zip_city_mismatch
-POL-000128,Emily Collins,5167,Bryan Trail,,Johnsonborough Heights,AZ,26645,zip_city_mismatch
-POL-000129,Amber Rios,4944,Hays Plains,,Kingborough,LA,47290,missing_unit
-POL-000130,Cody Holt,6311,Martinez Land,,Prestonmouth,MH,51179,clean
-POL-000131,Bobby Guerrero,9424,Glass Path,Suite 161,Morrisonburgh,ND,39005,clean
-POL-000132,William Gould,106,Griffin Stravenue,,Williamsstad,RI,57509,missing_unit
-POL-000133,Megan Kim,9602,Emily Lodge,,Williamburgh Heights,AK,19215,zip_city_mismatch
-POL-000134,Jerry Watson,7338,Carlos Tunnel,,Michaelshire,AZ,79811,missing_unit
-POL-000135,Tyler Johnson,7852,Hines Ports,,New Michael,MD,85640,clean
-POL-000136,Thomas Henry,2880,Victor Loaf,,West Kimberlymouth,IL,80700,missing_unit
-POL-000137,Elijah Moore,5591,Derek Cliffs,Suite 271,Elizabethland,OH,71564,clean
-POL-000138,Johnny Ward,3948,Laura Pass,,North Tracie,WY,18703,missing_unit
-POL-000139,Samantha Jones,3362,McdonaldP laza,Apt. 911,Raymondfort,NC,54344,misspelling
-POL-000140,Catherine Burch,1293,Day Mission,,Frazierstad,DC,72761,clean
-POL-000141,Todd Jacobson,9531,Shaw Ways,Apt. 182,Fredmouth,VT,30053,clean
-POL-000142,Marcus Winters,8199,John Rd.s,Suite 249,New Danielleshire,OR,20711,misspelling
-POL-000143,Deborah Clark,190,Kirby Port,,Port Michelleland,AZ,84577,clean
-POL-000144,Karen Ballard,1846,Montgomery Burgs,,Smallside,LA,84637,missing_unit
-POL-000145,Charles Hensley,8586,Evans Cliffs,,East Scottfort,NH,27242,clean
-POL-000146,Ashley Allen,2088,Gross Wall,,Theresaberg,WV,49068,clean
-POL-000147,Victor Barrera,8802,Joseph Gateway,,North Brent,MS,81159,clean
-POL-000148,Shawn Jimenez,7351,Peck Stravenue,,Jamesburgh,NM,67967,clean
-POL-000149,Douglas Harper,8370,Sierra Parkways,,Levyborough,OR,46755,clean
-POL-000150,Holly Morales,7405,Mitchell Branch,,South Dennisview,VA,48444,clean
-POL-000151,Barbara Hester,7877,Michael Heights,,South Williamside,KY,82190,clean
-POL-000152,Andrew Williams,4643,Brooks Junction,,Kariborough,PA,67232,clean
-POL-000153,Luis Kirby,4019,Brokc Path,Suite 298,West Sarah,MD,21800,misspelling
-POL-000154,Steven Wiggins,3941,Romero Pass,Suite 947,West Markville Heights,MT,77008,zip_city_mismatch
-POL-000155,Michael Johnson,8949,Candice Greens,,New Cristina,RI,50333,missing_unit
-POL-000156,Reginald Knapp,6375,James Mill,,Robertchester,UT,27225,clean
-POL-000157,Emily Thompson,1152,Janice Path,,New Mark Heights,TN,63202,zip_city_mismatch
-POL-000158,Courtney Dudley,7733,Payne Springs,,Chelseaborough,IA,37070,missing_unit
-POL-000159,Kimberly Huang,6983,Wise Squares,Apt. 757,Annview,LA,16475,clean
-POL-000160,Jeremy Scott,420,Cardenas Trail,,West Bobby,VT,10859,clean
-POL-000161,Laurie Sanchez,6332,Lewis Views,,Sarahview,DC,14817,clean
-POL-000162,Abigail Pierce,4992,Dana Center,,South Markfort,CT,89786,clean
-POL-000163,Matthew Velez,6965,Richard Wells,,Woodsborough,WV,38150,clean
-POL-000164,Jennifer Simpson DVM,77870,Denise Fort,,East Robertburgh,PW,05264,outdated_address
-POL-000165,Martin Warren,7240,Mcdowell Branch,,Ashleyville Heights,MA,37799,zip_city_mismatch
-POL-000166,Mariah Higgins,6724,Melissa Mountain,,Jamesville,MA,21799,clean
-POL-000167,Stephanie Wilcox,2191,Jill Turnpike,,Ashleyborough,HI,80580,clean
-POL-000168,James Griffin,6555,Miller Skyway,,East Tinafort,MD,33013,clean
-POL-000169,Eric Sullivan,1475,Finley Hlolow,,West Desireebury,AR,88029,misspelling
-POL-000170,Jacqueline Miles DVM,3077,Vaughn Route,Suite 593,East Timothy Heights,NH,98508,zip_city_mismatch
-POL-000171,Ronald Leach,3567,Kathleen Springs,,New Seanstad Heights,CA,74447,zip_city_mismatch
-POL-000172,Jill Brown,6311,Ashley Drive,Apt. 587,Lake Jamieshire,NM,12420,clean
-POL-000173,Amber Cooper,7006,Wliliam Motorway,Apt. 874,South Jonathantown,WA,29061,misspelling
-POL-000174,Maria Fisher,8937,Amber Circle,Apt. 704,Whiteberg,WI,84586,clean
-POL-000175,Barbara Haney,3773,West Lane,,Millerside,DC,86161,clean
-POL-000176,Nathan Coleman,759,Rice Stream,,Port Adam,AK,39608,clean
-POL-000177,Amanda Keller,3366,Morrow Gateway,,Reedview,ID,95531,clean
-POL-000178,Nicole Parsons,4008,John Cliff,Apt. 907,East Joyfurt,NV,31216,clean
-POL-000179,Patricia Cardenas,76133,William Highway,,Port Sabrina,OK,42300,outdated_address
-POL-000180,Jon Compton,6143,Kevin Divide,Apt. 644,New Stacyburgh,SC,89466,clean
-POL-000181,Kara Atkinson,1976,Floyd Island,,Russellport,MS,24602,missing_unit
-POL-000182,Gary Miller,5196,Mathesw Divide,Suite 086,Grantberg,MS,32332,misspelling
-POL-000183,Shelly Lopez,9533,Boone Course,,North Joseph,TX,79795,clean
-POL-000184,Autumn Key,6598,Timothy Ways,,Kevintown,IL,25407,missing_unit
-POL-000185,Jamie Ferguson,9800,Rocha Square,,South Rose,OH,42655,clean
-POL-000186,Jacqueline Gutierrez,1769,Parker Lake,,Owensfort Heights,WV,42474,zip_city_mismatch
-POL-000187,Christian Rivera,9937,Joyce Brook,,Angelashire,OR,94874,clean
-POL-000188,Maria Henry,9372,Hudson Gardens,,Piercemouth Heights,KS,64545,zip_city_mismatch
-POL-000189,Kimberly May,7118,Jessic aKnoll,,East Jennifer,NM,24624,misspelling
-POL-000190,Crystal Mann,307,Alexandria Villages,,Port Elizabethtown,MT,18522,clean
-POL-000191,Joseph Jenkins,1829,Jeffery Motorway,,Brucefort Heights,TN,64445,zip_city_mismatch
-POL-000192,Brent Hernandez,105722,Alyssa Harbor,,Andrechester,AS,23997,outdated_address
-POL-000193,Judy Sanchez,8648,Christine Glen,,Josephfurt,CO,49397,missing_unit
-POL-000194,Juan Brown,106825,Kevin Views,,Lake Victoriaton,CO,53621,outdated_address
-POL-000195,Karen Williams,9807,Jacqueline Corner,Suite 659,New Samanthabury,IL,91240,clean
-POL-000196,Tanya Evans,81974,Gabrielle Harbors,Apt. 250,New Douglas,GU,93917,outdated_address
-POL-000197,Brenda Hinton,9436,Ashley Vista,,Rhodesside Heights,MA,50812,zip_city_mismatch
-POL-000198,Tina Sanders,570,Vincent Key,,North Samuelland Heights,MA,79821,zip_city_mismatch
-POL-000199,Luke Yates,8088,Johnson Groves,Suite 735,Reynoldsshire,TN,50317,clean
-POL-000200,Derrick Anderson,5676,Christopher Drives,Suite 265,Danieltown,ME,58793,clean
-POL-000201,Kyle Nguyen,4626,Ryan Point,,Garcialand,MI,73143,clean
-POL-000202,Johnny Brown,3230,Smith Loop,Suite 183,Lake Oscar,DC,35748,clean
-POL-000203,Kathleen Jensen,8104,Hill Hills,,Pattonstad,KS,32822,missing_unit
-POL-000204,Jeffrey Colon,59030,Rodriguez Hollow,,South Martinfurt,AS,43694,outdated_address
-POL-000205,Tracy Casey,67569,Kevin Rapids,Apt. 752,Novakport,WA,91590,outdated_address
-POL-000206,Catherine Saunders MD,5116,Bennett Viaduct,,Diazshire Heights,ID,78125,zip_city_mismatch
-POL-000207,Brenda Turner,108053,Hahn Fords,,Salinasland,GU,54128,outdated_address
-POL-000208,Andrew Schmitt,9117,Hopkins Stravenue,Suite 617,Aguilarside,NY,91164,clean
-POL-000209,Brett Walker,4538,Daniel Gateway,,Rasmussenmouth,WY,56921,missing_unit
-POL-000210,Vernon Wilson,3255,Sean Lock,Suite 982,Whitneyfort,CT,39223,clean
-POL-000211,Austin Williams,3133,Michael Junctions,Suite 387,Thomasmouth,VA,91827,clean
-POL-000212,Erin Simmons,4630,Andrew Junctions,,Lake Laurenbury,NC,23366,clean
-POL-000213,Lucas Gonzalez,8695,Hall Lodge,,East Danielle,NE,52350,clean
-POL-000214,Brian Lambert,3280,Price Squares,Apt. 341,Port Monicaburgh Heights,MN,43228,zip_city_mismatch
-POL-000215,Robin Mccarthy,5052,Rose Route,Suite 969,Matthewsstad,MI,60513,clean
-POL-000216,James Carlson,4594,Sellesr Ramp,Apt. 251,West Daryl,MN,91391,misspelling
-POL-000217,Ryan Harvey,2168,Henderson Oval,,New Garrett,LA,18889,clean
-POL-000218,Jennifer Vasquez,1780,Crane Oval,,East Lisa,OH,66749,clean
-POL-000219,Dylan Norman,7790,Burns Corner,,Port Kathleenport Heights,AZ,36526,zip_city_mismatch
-POL-000220,Ronald Potter,941,Dunn Creek,Apt. 485,Port Jenniferside,IL,56226,clean
-POL-000221,Cynthia Cochran,56824,Golden Bypass,,Bakerland,NV,15887,outdated_address
-POL-000222,Renee Hudson,9553,Calalhan Ridge,,Martinberg,WY,27583,misspelling
-POL-000223,Scott Duke,9321,Carlosn Extension,,Tiffanyport,LA,75570,misspelling
-POL-000224,Sean Wright,91107,Derek Terrace,,Sellersview,VI,86470,outdated_address
-POL-000225,Jaime Jones,3797,Poole Trace,,Burnsshire Heights,SC,35722,zip_city_mismatch
-POL-000226,Melissa Horn,7353,Richard Summit,Suite 577,Brandiland,VA,60590,clean
-POL-000227,Rachel Shannon,7125,Robinson Meadow,Apt. 745,Matthewshire,DC,74706,clean
-POL-000228,Tyler Harris,1725,Brandon Road,,Smithburgh,NV,60337,missing_unit
-POL-000229,Molly Fischer,3557,Nicoel Hollow,Apt. 415,Christopherburgh,AR,52450,misspelling
-POL-000230,Michael Smith,2947,Rios Squares,,North Jasonland,DC,78315,missing_unit
-POL-000231,Nicholas Garcia,6793,Montoya Wall,,Bensonfort,CA,30509,clean
-POL-000232,Lori Hernandez,4871,Richardson Hills,,New Annaburgh,NV,46531,missing_unit
-POL-000233,Nicholas Bell,99780,Jensen Mills,,North Peggy,DC,99125,outdated_address
-POL-000234,Michelle Mitchell,3924,Edwards Dam,,West Deanna,IA,73035,clean
-POL-000235,Matthew Bowers,9763,Melanie Shoals,,Jamiehaven,ID,98522,clean
-POL-000236,Joshua Thompson,7065,Troy Creek,,West Sarahberg,MS,74999,missing_unit
-POL-000237,Antonio Mccormick,2541,Best Trail,,North Brendatown,KS,28778,clean
-POL-000238,Valerie Moore,1269,Fuller Parkway,Suite 661,West Christopher,CO,67518,clean
-POL-000239,Jeffrey Chavez,9849,Myers Roads,,West Hollybury,AR,32545,clean
-POL-000240,Jon Reed,74756,Kyle Streets,,North Alexander,DC,92447,outdated_address
-POL-000241,Jeffrey Warren,6694,Jackson Crossroad,,Jessicaville,WI,04348,clean
-POL-000242,Carol Moore,8190,Joseph Ports,,South Spencerstad,AR,65985,clean
-POL-000243,John Reyes,7178,Patricia Spring,,East Joycetown,AZ,02111,clean
-POL-000244,Barbara Nunez,523,Harold Walks,Apt. 863,Johnmouth,KY,10709,clean
-POL-000245,Emily Miller,9524,HarryU nions,,South Caseymouth,VI,37503,misspelling
-POL-000246,Kimberly Flynn,9541,Smith Flats,Suite 949,South Micheal,NM,26115,clean
-POL-000247,Jamie Rojas,76037,Adam Lodge,,East Ambertown,MA,00692,outdated_address
-POL-000248,Anna Morse,85298,Garcia Pines,,South Travis,AR,19162,outdated_address
-POL-000249,Mandy Foster,72634,Haynes Landing,,Villegasland,OR,13028,outdated_address
-POL-000250,Nancy Stewart,1813,Ryan Curve,,West Jose Heights,MD,52006,zip_city_mismatch
-POL-000251,Traci Clark,8217,Hall Flats,Apt. 912,East Shannonmouth,MT,16326,clean
-POL-000252,Tracy Foster,9112,For dWalk,Apt. 124,East Marymouth,FL,12456,misspelling
-POL-000253,Antonio Norman,5396,Erica Green,Apt. 067,North Steven,AS,18823,clean
-POL-000254,Robert Johnson,8531,David Veiw,,Watsonland,OR,77324,misspelling
-POL-000255,Tom Williams,8989,JamesR ue,,Lambland,MH,43957,misspelling
-POL-000256,Cody Ramirez,84996,Underwood Locks,,Johnsonchester,HI,46893,outdated_address
-POL-000257,Marvin Robles,945,Austin River,Apt. 476,Brownview,MS,18488,clean
-POL-000258,Hailey Cunningham,4819,Crystal Unions,,South Kimberlystad,NJ,71872,clean
-POL-000259,Pamela Key,2089,Price Falls,Apt. 593,Port Kimberlyton,AS,62325,clean
-POL-000260,Zachary Robinson,4020,Craig Shoals,,West Amanda Heights,WY,97108,zip_city_mismatch
-POL-000261,Suzanne Johnson,324,Kelly Villages,,East Joel,MD,97245,misspelling
-POL-000262,Casey Johnson,7660,Meza Port,,New Stacy,MP,65018,clean
-POL-000263,Carlos Love,2622,Jesse Forges,,New Timothymouth,PW,80996,clean
-POL-000264,Jacqueline Mcmahon,90058,Brown Drive,,Port Daniel,NC,48327,outdated_address
-POL-000265,Wayne Steele,7836,Willis Junction,Suite 522,Connerfort,SD,42087,clean
-POL-000266,Zachary Sanford,6384,Walker Radial,Apt. 644,East Jessica,UT,75583,clean
-POL-000267,Blake Reed,2336,Ian Island,,Lake Ariana,NM,18935,missing_unit
-POL-000268,Michelle Williams,6898,Jackson Corners,Suite 704,East Heather,MI,34141,clean
-POL-000269,Ronald Kramer,4477,Oconnor Expressway,,Snyderfurt,MI,72069,missing_unit
-POL-000270,Stephen Martin,4991,Francisco Cliffs,,West Andrewview,CT,10226,clean
-POL-000271,Matthew Lawson,89863,Amy Course,,Brookefort,VT,04563,outdated_address
-POL-000272,Kenneth Larsen,5754,Moore Courts,Suite 336,Donnaport,IA,13072,clean
-POL-000273,Christopher Carter,6280,Brian Alley,,Millerfort Heights,ID,13213,zip_city_mismatch
-POL-000274,Martin Hughes,3190,Thomas Crescent,,Kristenfort,NM,87144,missing_unit
-POL-000275,Brittany Horton,6374,Mcclure Land,Apt. 704,Marshallbury,MP,35701,clean
-POL-000276,Taylor Armstrong,75799,Christopher Key,Suite 938,Port Paulhaven,MT,70691,outdated_address
-POL-000277,Rebecca Byrd,6425,Thomas Common,,Orrton,NY,75371,clean
-POL-000278,Jay Mcneil,2592,David Thruoghway,,Thompsonburgh,IL,25761,misspelling
-POL-000279,Kelly Stark,9769,Harris Veiw,Apt. 945,North Paulfurt,OH,43247,misspelling
-POL-000280,Olivia Ayers,99079,Kristin Road,,Rodriguezberg,FL,74765,outdated_address
-POL-000281,Matthew Armstrong,2461,Anna Courts,,Mikaylastad,FM,54357,clean
-POL-000282,John Adams,2629,Johnson Harbor,Suite 299,Williamsmouth,UT,31640,clean
-POL-000283,Erica Daniel,4442,Smith Viaduct,Suite 447,Port Jeremyport,WA,58580,clean
-POL-000284,Kaylee Moore,1415,Jacob Forest,,Figueroahaven,VI,49510,clean
-POL-000285,Jesus Hull,8842,Mckinney Lodge,Apt. 890,East Nancy Heights,ID,08054,zip_city_mismatch
-POL-000286,John Griffin,8094,Johsua View,,Wagnerville,TX,04506,misspelling
-POL-000287,Alexander Williams,3946,Matthews Keys,,Frankview,WA,90790,clean
-POL-000288,Sharon Coffey,60278,Mercedes Rue,,Lake Jamie,SD,54175,outdated_address
-POL-000289,Terri Marquez,1746,Thomas Curve,,New Lauren,IN,33582,clean
-POL-000290,Brian Hunt,574,Coleman Lane,Suite 743,Turnerhaven,GU,82238,clean
-POL-000291,Michael Stafford,70909,Hoffman Ranch,Suite 417,West Vanessamouth,VI,36792,outdated_address
-POL-000292,Francisco Taylor,8802,Lopez Path,,North Linda,AS,79148,clean
-POL-000293,Micheal Parks,3050,Diana Hlil,Suite 666,New Jeanshire,GU,25393,misspelling
-POL-000294,Catherine Davis,6367,Knox Skyway,,Williamburgh,MP,86695,missing_unit
-POL-000295,Kevin Ford,76298,Joyce Stream,Apt. 513,Jeffreyport,MT,43927,outdated_address
-POL-000296,Scott Taylor,7629,Thomas aWy,Apt. 738,Port Erinhaven,ME,54647,misspelling
-POL-000297,Mr. Christopher Walters,7722,Matthew Port,,Thomasburgh,WI,11093,clean
-POL-000298,Janet Johnson,2688,Shannon Fords,Apt. 927,East Christinachester,MO,56734,clean
-POL-000299,Brian Gordon,9726,Jessica Bridge,Suite 830,Lake Jessicabury,UT,45635,clean
-POL-000300,Gail Barron,4197,Jackson View,,West Stacymouth Heights,VA,68696,zip_city_mismatch
-POL-000301,Danny Mercer,6402,MatthewO verpass,,Karenburgh,PW,53374,misspelling
-POL-000302,Linda Williams,9470,Jessica Radial,,Mcdowellview,WI,70589,missing_unit
-POL-000303,Michael Mccoy,4937,Desiree Brooks,Apt. 167,Martinezview,NJ,92496,clean
-POL-000304,Diane Glover,6584,Fisher Courts,Suite 992,Rivasville,NY,94711,clean
-POL-000305,Christopher Kelley,903,Gonzalez Flats,,Marieborough,MI,92701,clean
-POL-000306,Sara Caldwell,4789,Haley Orchard,,Jimmytown,TN,12166,missing_unit
-POL-000307,Robert Sawyer,5872,Stacy Tunnel,,Hintonport,KS,61354,missing_unit
-POL-000308,Alexandra Taylor,4206,Ward Springs,,Ronaldville,CT,99880,clean
-POL-000309,James Rivers,2340,Mark Mill,,Natalieland,MN,45422,clean
-POL-000310,Thomas Webb,88727,Houston Spurs,Suite 621,Lake Jessica,PR,21393,outdated_address
-POL-000311,Jason Williams,6077,WhiteL ight,,Cherylberg,NJ,64480,misspelling
-POL-000312,Lisa Reynolds,5452,Pena Bridge,,Lake Morgan,NC,69065,missing_unit
-POL-000313,Mason Moore,2265,Timothy Shore,,Hernandezside,MH,80836,clean
-POL-000314,Donald Hunter,6094,Christian Ways,,North Karen,MD,32075,clean
-POL-000315,Jonathan Valdez,2795,Powell Freeway,Apt. 779,Millerfort,NV,41927,clean
-POL-000316,Mary Bryant,7994,Richard Camp,,Port Christopherport,FM,67129,missing_unit
-POL-000317,Michelle Cox,60583,Cox Center,,Port Shawn,OH,81733,outdated_address
-POL-000318,Dorothy Boyd,2406,Wilson Trace,,North Matthew,MP,83556,missing_unit
-POL-000319,Chelsea Conrad,6611,Brandon Expressway,,Taylorchester,CT,33831,clean
-POL-000320,Kevin Gordon,6092,Lewis Views,Apt. 516,Lake Maryshire Heights,DE,59549,zip_city_mismatch
-POL-000321,Susan Holt,98526,Smith Street,,New Savannahshire,NJ,67129,outdated_address
-POL-000322,Lee Schwartz,4395,Jessica Crossroad,,South Dianemouth,NY,50919,clean
-POL-000323,Emily Doyle,6186,Joshua Junctions,,Morrisonhaven,ME,92447,missing_unit
-POL-000324,Cassandra Daniels,510,James Road,,Glendaberg,VT,85709,clean
-POL-000325,Megan English,5474,Page Trace,,Annashire,OK,87946,missing_unit
-POL-000326,Christina Christensen,97080,Rich Manors,,New Danielfurt,FL,07456,outdated_address
-POL-000327,Joshua Howard,5051,Tnoya Springs,,Dwayneton,UT,39185,misspelling
-POL-000328,Richard Jennings,57078,Garcia Ways,Apt. 863,Heatherton,MS,51298,outdated_address
-POL-000329,Susan Bush,3946,Alexande rGlen,,New Misty,VI,58574,misspelling
-POL-000330,William Jones,6178,Fischer Plains,,Port Jenny,ID,39059,clean
-POL-000331,Kevin Scott,8950,Jill Crest,,Williamsview,OH,35135,clean
-POL-000332,Mary Henry,2631,Owens Drives,,East Sarahton,WI,82469,clean
-POL-000333,Caitlin Daniels,8117,Jones Station,,Aliciaburgh,NC,09437,clean
-POL-000334,Veronica Smith,4683,Davis Forges,Apt. 555,Jefferyhaven Heights,NJ,74076,zip_city_mismatch
-POL-000335,Theresa Cruz,7364,Griffin Row,,North Felicia,MD,50488,missing_unit
-POL-000336,Brendan Bonilla,6042,Johnson Path,Suite 887,Williamsborough,MD,67858,clean
-POL-000337,Ronald Johns,9020,Courtney Fords,,Port Gina,MP,14122,clean
-POL-000338,Laura Perez,1092,Lucas Cliffs,,North Charlesburgh,WY,33519,missing_unit
-POL-000339,Aaron Cortez,2101,Russell Mission,,Hamiltontown,MS,88751,clean
-POL-000340,Michael Obrien,1601,Katelyn Prairie,,Lake Melaniestad,NY,14412,clean
-POL-000341,Brandy Myers,9883,Hubbar dMill,,Fostertown,NJ,20990,misspelling
-POL-000342,Brenda Williams,4090,Choi Divide,,Ericastad,AL,73052,clean
-POL-000343,Luis King,3462,Medina Corner,Suite 353,Whiteheadhaven,FL,21597,clean
-POL-000344,Donna Jones,3494,Howard Union,,Port Karenside,NH,84999,clean
-POL-000345,Jerry Jensen,3917,James Praiire,Suite 552,North Justin,CA,25863,misspelling
-POL-000346,Destiny Ward,146,Steele Drives,Suite 562,West Johnbury,VT,97470,clean
-POL-000347,Matthew Miller,2229,Humphrey Mountain,,Howardport,NM,72809,clean
-POL-000348,Stephanie Atkinson,1901,Tervino Dam,,West Jessica,SC,10523,misspelling
-POL-000349,Kimberly Lutz,5969,Lisa Prairie,,Hammondborough,PW,05305,missing_unit
-POL-000350,Jonathan Bates,5404,Valdez Drive,,Dennishaven,NY,12370,missing_unit
+POL-000001,Noah Rhodes,3446,IRIS CT,Apt. 043,Boulder,CO,80304,clean
+POL-000002,Daniel Wagner,1831,BRACKLAND ST,Apt. 960,Jacksonville,FL,32206,clean
+POL-000003,Cristian Santos,3705,CANFIELD ST,,Boulder,CO,80301,clean
+POL-000004,Connie Lawrence,65,BANNOCK ST,,Denver,CO,80223,misspelling
+POL-000005,Abigail Shaffer,1415,TATF AVE,,Clearwater,FL,33755,misspelling
+POL-000006,Gina Moore,518,PARKVIEW CT,,Golden,CO,80403,clean
+POL-000007,Gabrielle Davis,221,TURNER ST,,Clearwater,FL,33756,missing_unit
+POL-000008,Ryan Munoz,544,N BUMBY AVE,,Orlando,FL,32803,missing_unit
+POL-000009,Jamie Arnold,516,E GRAND AVE,,Des Moines,IA,50309,missing_unit
+POL-000010,Darren Roberts,327,CILNTON ST,Suite 931,Brooklyn,NY,11231,misspelling
+POL-000011,David Garcia,1200,BRICKELL AVE,,Miami,FL,33131,clean
+POL-000012,Daniel Adams,58217,W 12TH ST,Suite 752,New York,NY,10011,outdated_address
+POL-000013,Carla Gray,1150,NW 8TH STREET RD,,Miami,FL,33136,missing_unit
+POL-000014,Margaret Hawkins DDS,1940,BLAKE ST,,Denver,CO,80202,clean
+POL-000015,Austin Gentry,810,W 2ND VAE,Apt. 305,Denver,CO,80223,misspelling
+POL-000016,Michelle Lewis,811,CLEVELAND ST,,Clearwater,FL,33755,clean
+POL-000017,Dr. Marvin Thomas Jr.,1415,TAFT AVE,,Plant City,FL,33755,zip_city_mismatch
+POL-000018,Kimberly Burgess,1020,15TH ST,,Denver,CO,80202,missing_unit
+POL-000019,Zachary Hicks,239,SW 9TH ST,,Miami,FL,33130,missing_unit
+POL-000020,Anthony Rodriguez,970,AURORA AVE,,Boulder,CO,80302,clean
+POL-000021,Rebecca Henderson,222,SPARTA MT RD,,Oak Ridge,NJ,07438,missing_unit
+POL-000022,Kendra Maddox DVM,411,LAUREL ST,Apt. 669,Des Moines,IA,50314,clean
+POL-000023,Nathan Maldonado,3446,IRIS CT,,Boulder,CO,80304,missing_unit
+POL-000024,Debra Davidson,55,SE 6TH ST,,Miami,FL,33131,clean
+POL-000025,Jeffrey Chavez,811,CLEVELAND ST,,Clearwater,FL,33755,clean
+POL-000026,Sheila Evans,1507,W REYNOLDS ST,,Plant City,FL,33563,missing_unit
+POL-000027,Lisa Hernandez,2261,BLAKE ST,,Golden,CO,80205,zip_city_mismatch
+POL-000028,Kimberly Osborne,141,ALEXANDER WOODS DR,,Plant City,FL,33563,clean
+POL-000029,Timothy Koch,63,CANAL ST,,Landing,NJ,07850,missing_unit
+POL-000030,Elizabeth Brown,3327,NE RENAISSANCE DR,,Ankeny,IA,50021,clean
+POL-000031,Theresa Miller,2270,BELL AVE,,Ankeny,IA,50321,zip_city_mismatch
+POL-000032,Mr. Philip Cannon,172,DRATMOUTH TRL,,Hopatcong,NJ,07843,misspelling
+POL-000033,Shane Henderson,518,LAKESIDE AVE,,Andover,NJ,07821,missing_unit
+POL-000034,Joshua Blair,970,AUROAR AVE,,Boulder,CO,80302,misspelling
+POL-000035,Eric Carney,1109,W 13TH AVE,,Denver,CO,80204,clean
+POL-000036,Jessica Holmes,407,SE DELAWARE VAE,,Ankeny,IA,50021,misspelling
+POL-000037,Danny Morgan,2,BILLINGS RD,,Hopatcong,NJ,07843,clean
+POL-000038,Crystal Robinson,1336,CLEVELAND ST,,Orlando,FL,32209,zip_city_mismatch
+POL-000039,Shannon Jones,707,19T HST,Apt. 031,Des Moines,IA,50314,misspelling
+POL-000040,Michael Lewis,1136,NE 7TH LN,,Ankeny,IA,50021,clean
+POL-000041,Timothy Duncan,147,BELL AVE,,Hopatcong,NJ,07843,missing_unit
+POL-000042,Richard Aguirre,3446,IRIS CT,,Boulder,CO,80304,missing_unit
+POL-000043,Brent Jordan,150,SE 2ND AVE,,Miami,FL,33131,clean
+POL-000044,John Daniel,279,WATER ST,,New York,NY,10038,clean
+POL-000045,Ashley Lee,1112,E 4HT AVE,Apt. 065,Denver,CO,80218,misspelling
+POL-000046,Brenda White,175,COLUMBIA HTS,,Brooklyn,NY,11201,missing_unit
+POL-000047,Shannon Jones,1501,S FORT HARRISON AVE,,Clearwater,FL,33756,clean
+POL-000048,Savannah Garcia,11,DEER TRL,,Hopatcong,NJ,07843,clean
+POL-000049,Kimberly Smith,215,ADAM SST,,Brooklyn,NY,11201,misspelling
+POL-000050,Mr. James Brown,405,SW 3RD ST,Apt. 326,Ankeny,IA,50023,clean
+POL-000051,William Baker,1012,E 4TH AVE,,Denver,CO,80218,missing_unit
+POL-000052,Jordan Henderson,2410,SW WHITE BIRCH DR,,Ankeny,IA,50023,clean
+POL-000053,Anthony Fitzgerald,722,WASHINGTON AVE,Suite 234,Golden,CO,80401,clean
+POL-000054,Kathryn Farrell,2041,COLUMBINE AVE,Apt. 500,Boulder,CO,80302,clean
+POL-000055,Andrea Jones,945,19TH ST,,Des Moines,IA,50314,missing_unit
+POL-000056,Kristopher Harvey,524,NW 11TH ST,Apt. 619,Miami,FL,33136,clean
+POL-000057,Dean Santiago,1400,1T6H ST,Suite 998,Denver,CO,80202,misspelling
+POL-000058,Matthew Bryant,811,CLEVELNAD ST,Suite 346,Clearwater,FL,33755,misspelling
+POL-000059,Taylor Smith,2007,S COUNTRYSIDE CIR,,Orlando,FL,32804,missing_unit
+POL-000060,Brandi Bailey,209,5THS T,Apt. 183,West Des Moines,IA,50265,misspelling
+POL-000061,David Mitchell,810,W 2ND AVE,,Denver,CO,80223,clean
+POL-000062,Joshua Turner,37,W 12THS T,,New York,NY,10011,misspelling
+POL-000063,Brandy Wilson,97899,COLUMBUS AVE,Apt. 841,Des Moines,IA,50315,outdated_address
+POL-000064,Juan Nelson,363,N ORANGE AVE,,Orlando,FL,32801,clean
+POL-000065,Danielle Odonnell,13,WABASH TRL,Apt. 534,Andover,NJ,07821,clean
+POL-000066,Mark Calderon,504,GRAND ST,,New York,NY,10002,missing_unit
+POL-000067,Gavin Anderson,301,S GLUFVIEW BLVD,,Clearwater,FL,33767,misspelling
+POL-000068,Candice Ramos,1816,TYLER ST,,Jacksonville,FL,32209,clean
+POL-000069,Kristina Rodriguez,128,LAKESIDE BLVD,,Hopatcong,NJ,07843,clean
+POL-000070,Brittany Anderson,405,SW 3RD ST,Apt. 805,Ankeny,IA,50023,clean
+POL-000071,Steven Flynn,2410,SW WHITE BIRCH DR,,Ankeny,IA,50023,clean
+POL-000072,Stephanie Clark,1407,WASHINGTON AVE,,Golden,CO,80401,missing_unit
+POL-000073,Brian Deleon,209,5TH ST,,West Des Moines,IA,50265,clean
+POL-000074,Vanessa Cochran,1400,N ORANGE BLOSOSM TRL,Suite 923,Orlando,FL,32804,misspelling
+POL-000075,Allison Doyle,2114,BLUE AVE,,Jacksonville,FL,32209,clean
+POL-000076,Timothy Pham,343,E CHURCH ST,,Jacksonville,FL,32202,clean
+POL-000077,Rita Adams,50,W 9TH ST,,New York,NY,10011,clean
+POL-000078,Robert Stevens,1068,WELDON RD,,Oak Ridge,NJ,07438,missing_unit
+POL-000079,Robert Perez,1007,W GORE ST,,Orlando,FL,32805,clean
+POL-000080,Benjamin Ayala,2500,JACKOSN ST,Apt. 365,Golden,CO,80401,misspelling
+POL-000081,Jordan Frazier,1136,NE 7TH LN,,Ankeny,IA,50021,clean
+POL-000082,Erin Johnson,1007,W OGRE ST,,Orlando,FL,32805,misspelling
+POL-000083,Debbie Carpenter,784,E MICHIGAN ST,,Orlando,FL,32806,clean
+POL-000084,Mrs. Linda Reed,1456,LAKEVIEW RD,,Clearwater,FL,33756,clean
+POL-000085,Steven Lee,2261,BLAKE ST,Suite 698,Denver,CO,80205,clean
+POL-000086,Kimberly Ball,1745,BOULDER ST,Apt. 608,Denver,CO,80211,clean
+POL-000087,Megan Diaz,891,14TH ST,,Denver,CO,80202,clean
+POL-000088,Matthew Rivera,24,AVALON ST,,Orlando,FL,33767,zip_city_mismatch
+POL-000089,Jason Powell,141,ALEXANDER WOODS DR,Suite 148,Plant City,FL,33563,clean
+POL-000090,Todd Byrd,519,17TH ST,Suite 823,Des Moines,IA,50309,clean
+POL-000091,Roy Torres,2007,S COUNTRYSIDE CIR,Apt. 994,Orlando,FL,32804,clean
+POL-000092,Richard Lawson,891,14HT ST,,Denver,CO,80202,misspelling
+POL-000093,Kayla Leon,350,NW GEORGETOWN BLVD,Suite 777,Ankeny,IA,50023,clean
+POL-000094,Nancy Hopkins,784,E MICHIGAN ST,,Jacksonville,FL,32806,zip_city_mismatch
+POL-000095,Matthew Harvey,616,SE 10TH ST,,Des Moines,IA,50309,clean
+POL-000096,Trevor Young,465,ELATI ST,,Denver,CO,80204,clean
+POL-000097,David Alvarez,116,SE LORENZ DR,Suite 332,Ankeny,IA,50021,clean
+POL-000098,Angel Perry,1912,BRAKCLAND ST,,Jacksonville,FL,32206,misspelling
+POL-000099,Matthew Smith,2114,BLUE VAE,Apt. 676,Jacksonville,FL,32209,misspelling
+POL-000100,Melissa Marshall,1068,WELDON RD,Apt. 632,Oak Ridge,NJ,07438,clean
+POL-000101,Mary Travis,518,PARKVIEW CT,Apt. 172,Golden,CO,80403,clean
+POL-000102,Tiffany Vance,2114,BLUE AVE,,Jacksonville,FL,32209,missing_unit
+POL-000103,Karen Green,68495,N ORANGE AVE,Suite 872,Orlando,FL,32801,outdated_address
+POL-000104,Denise Jones,900,OAK ST,Apt. 487,Orlando,FL,32804,clean
+POL-000105,Devon Flores,3446,IRIS CT,,Boulder,CO,80304,missing_unit
+POL-000106,Brenda Hall,51144,28TH ST,,Des Moines,IA,50312,outdated_address
+POL-000107,Joshua Perry,518,LAKESIDE AVE,Apt. 316,Andover,NJ,07821,clean
+POL-000108,Jason Stein,91,WELDON RD,,Lake Hopatcong,NJ,07849,clean
+POL-000109,Melissa Gates,55701,INCA ST,,Denver,CO,80202,outdated_address
+POL-000110,James Snow,3416,MONCRIEF RD,Suite 705,Jacksonville,FL,32209,clean
+POL-000111,Kimberly Navarro,888,N ORANGE AVE,,Orlando,FL,32801,missing_unit
+POL-000112,Stephanie Freeman,1351,W 5TH ST,,Plant City,FL,32209,zip_city_mismatch
+POL-000113,John Price,1745,BOULDER ST,,Denver,CO,80211,clean
+POL-000114,Rebecca Ramsey,1456,LAKEVIEW RD,,Clearwater,FL,33756,clean
+POL-000115,James Elliott,61876,ASHLAND PL,Suite 298,Brooklyn,NY,11201,outdated_address
+POL-000116,Marvin Taylor,325,JEFFERSON COUNTY PKWY,,Golden,CO,80401,clean
+POL-000117,Anthony Gray,2502,N WILDER RD,,Plant City,FL,33565,clean
+POL-000118,Jamie Walton,122,ASHLAND PL,,Brooklyn,NY,11201,missing_unit
+POL-000119,Joshua Cooke,2635,JUNIPER AVE,Suite 417,Boulder,CO,80304,clean
+POL-000120,Tiffany Gonzalez,130,5TH ST,Suite 310,West Des Moines,IA,50265,clean
+POL-000121,Michael Elliott,519,17TH ST,Apt. 923,Des Moines,IA,50309,clean
+POL-000122,Lawrence Adkins,811,CLEVELAND ST,Apt. 745,Clearwater,FL,33755,clean
+POL-000123,Tanya Johnston,1507,W REYNOLDS ST,Apt. 241,Plant City,FL,33563,clean
+POL-000124,Sandra Sanchez,20,N MOORE ST,Suite 631,New York,NY,10013,clean
+POL-000125,Elizabeth Sutton,1507,W REYNOLDS ST,,Plant City,FL,33563,clean
+POL-000126,Rebecca Knight,2625,SW R3D AVE,,Miami,FL,33129,misspelling
+POL-000127,Joseph Stanley,715,GROVE ST,,Clearwater,FL,33755,clean
+POL-000128,Samantha Garcia,99925,FOREST CIR,Apt. 850,Orlando,FL,32803,outdated_address
+POL-000129,Joseph Santos,43,E 10TH ST,Suite 726,New York,NY,10003,clean
+POL-000130,Samuel Rivas,1380,SW DISTRICT DR,Suite 769,Ankeny,IA,50023,clean
+POL-000131,Laura Barnett,301,S GULFVIEW BLVD,Apt. 473,Clearwater,FL,33767,clean
+POL-000132,Johnny Nguyen,1315,S ORANGE AVE,,Orlando,FL,32806,clean
+POL-000133,Mr. David Ramirez,2701,CANYON BLVD,,Boulder,CO,80302,clean
+POL-000134,Angela Cortez,94971,28TH ST,Suite 808,Boulder,CO,80303,outdated_address
+POL-000135,Peter Vaughn DDS,2625,SW 3RD AVE,,Miami,FL,33129,clean
+POL-000136,Ricky Davis II,33,JEFFERSON TRL,,Landing,NJ,07843,zip_city_mismatch
+POL-000137,Elizabeth Perkins,71901,13TH ST,,Boulder,CO,80304,outdated_address
+POL-000138,Patrick Rivera,75254,SE DELAWARE AVE,Suite 885,Ankeny,IA,50021,outdated_address
+POL-000139,Denise King,3705,CANFIELD ST,,Boulder,CO,80301,missing_unit
+POL-000140,Tiffany Vaughn,2261,BLAKE ST,Apt. 351,Denver,CO,80205,clean
+POL-000141,Vanessa Warren,1315,S ORANGE AVE,,Orlando,FL,32806,missing_unit
+POL-000142,Brian Lee,43,E 10TH ST,,New York,NY,10003,clean
+POL-000143,Christopher Smith,1203,MURPHY ST,,Des Moines,IA,50309,clean
+POL-000144,Denise Mccann,1380,SW DISTRICT DR,,Ankeny,IA,50023,clean
+POL-000145,Melissa Martinez,247,HENRY ST,,New York,NY,10002,clean
+POL-000146,Katherine Salas,1309,N LEE ST,,Jacksonville,FL,32209,clean
+POL-000147,Vincent King,1035,NW 11TH CT,Suite 777,Miami,FL,33136,clean
+POL-000148,Ashley Jones,1456,LAKEVIEW RD,,Clearwater,FL,33756,missing_unit
+POL-000149,Robert Avery,327,CORONADOD R,Suite 190,Clearwater,FL,33767,misspelling
+POL-000150,David Grant,465,ELAT IST,,Denver,CO,80204,misspelling
+POL-000151,Kyle Montgomery,975,N LINCOLN ST,,Denver,CO,80203,clean
+POL-000152,Jamie Kerr,665,NW 14 ST,,Miami,FL,33136,missing_unit
+POL-000153,Kevin Patterson,2140,JORDAN PL,,Boulder,CO,80304,clean
+POL-000154,Amy Choi,20,N MOORE ST,,New York,NY,10013,clean
+POL-000155,Brooke Thompson,221,TURNER ST,Apt. 334,Clearwater,FL,33756,clean
+POL-000156,Aaron Hayes,1622,SE DELAWARE AVE,,Ankeny,IA,50021,clean
+POL-000157,Doris Hall,33,JEFFERSON TRL,,Hopatcong,NJ,07843,clean
+POL-000158,Michele Gibson,2525,13TH ST,,Boulder,CO,80304,clean
+POL-000159,Tammy French,1541,BRICKELL AVE,,Miami,FL,33129,clean
+POL-000160,Mary Peck,465,ELATI ST,,Denver,CO,80204,clean
+POL-000161,Joshua Holland,2270,BELL AVE,,Des Moines,IA,50321,clean
+POL-000162,Samantha Jones,67486,WELDON RD,,Lake Hopatcong,NJ,07849,outdated_address
+POL-000163,Jessica Harrison,1407,WASHINGTON AVE,Apt. 499,Golden,CO,80401,clean
+POL-000164,James Nelson,66086,3RD AVE,,New York,NY,10016,outdated_address
+POL-000165,Jessica George,1510,TALLEYRAND AVE,,Jacksonville,FL,32206,clean
+POL-000166,Darryl Craig,1456,LAKEVIEW RD,Suite 594,Jacksonville,FL,33756,zip_city_mismatch
+POL-000167,Casey Stone,172,DARTMOUTH TRL,Apt. 490,Lake Hopatcong,NJ,07843,zip_city_mismatch
+POL-000168,Robert Costa,72917,CEDAR AVE,Suite 429,Boulder,CO,80304,outdated_address
+POL-000169,Jason Morris,2410,SW WHITE BIRCHD R,,Ankeny,IA,50023,misspelling
+POL-000170,Donna Landry,1505,S MCDONALD ST,Apt. 256,Plant City,FL,33563,clean
+POL-000171,Brian Barton,800,28TH ST,Apt. 715,Boulder,CO,80303,clean
+POL-000172,Joseph Dean,810,W 2DN AVE,Apt. 876,Denver,CO,80223,misspelling
+POL-000173,Mr. Anthony Adams Jr.,1912,BRACKLAND ST,,Jacksonville,FL,32206,clean
+POL-000174,Stanley Washington,24,CLINTON ST,,Brooklyn,NY,11201,clean
+POL-000175,Mark Lloyd,209,E 1ST ST,,Ankeny,IA,50021,clean
+POL-000176,Anna Gay,52111,5TH ST,Apt. 480,West Des Moines,IA,50265,outdated_address
+POL-000177,Dr. Jordan Hill PhD,2104,GRAYSON WOODS CT,Apt. 712,Plant City,FL,33563,clean
+POL-000178,Mrs. Kristen Reyes,108,ALEXANDER WOODS DR,,Plant City,FL,33563,clean
+POL-000179,Katie Suarez,4,PEBBLE BEACH RD,,Hopatcong,NJ,07843,clean
+POL-000180,Desiree Tyler,1943,GREENWOOD VALLEY DR,,Plant City,FL,33563,clean
+POL-000181,Timothy Romero,11,DEERT RL,,Hopatcong,NJ,07843,misspelling
+POL-000182,Mary Grimes,714,CLEVELAND ST,Apt. 449,Miami,FL,33755,zip_city_mismatch
+POL-000183,Phillip Bennett,145,UNIVERSITY AVE,Suite 875,Des Moines,IA,50314,clean
+POL-000184,Scott Jenkins,747,NW 13TH AVE,Suite 339,Miami,FL,33125,clean
+POL-000185,Rebecca Pearson MD,1505,SM CDONALD ST,Suite 766,Plant City,FL,33563,misspelling
+POL-000186,Beth Sanford,2500,JACKSON ST,,Golden,CO,80401,clean
+POL-000187,Joyce Bowen,1543,SW 7THS T,Suite 171,Miami,FL,33135,misspelling
+POL-000188,Matthew Moore,888,N ORANGE AVE,,Orlando,FL,32801,clean
+POL-000189,Wayne Morgan,805,PARK ST,,Clearwater,FL,33756,clean
+POL-000190,Eugene Higgins,1501,S FORT HARRISON AVE,Suite 158,Clearwater,FL,33756,clean
+POL-000191,Shelia Johnson,67684,14TH ST,,Denver,CO,80202,outdated_address
+POL-000192,Jessica Garcia,407,3RD AVE,Apt. 343,New York,NY,10016,clean
+POL-000193,Shelia Wallace,2500,JACKSON ST,,Golden,CO,80401,clean
+POL-000194,Stephanie Williams,38,HGIHVIEW TRL,,Wharton,NJ,07885,misspelling
+POL-000195,Elaine Brooks,1158,W 6TH ST,,Jacksonville,FL,32209,clean
+POL-000196,Rebecca Jackson,1150,NW 8TH STREET RD,Apt. 386,Miami,FL,33136,clean
+POL-000197,Seth Harvey,128,LAKESIDE BLVD,,Hopatcong,NJ,07843,clean
+POL-000198,Mark Stevens,1831,BRACKLAND ST,Apt. 792,Jacksonville,FL,32206,clean
+POL-000199,Stephanie Marshall,2701,CNAYON BLVD,,Boulder,CO,80302,misspelling
+POL-000200,Joshua Jones,1608,NW 7TH AVE,,Miami,FL,33136,clean
+POL-000201,Victoria Evans,784,E MICHIGAN ST,,Plant City,FL,32806,zip_city_mismatch
+POL-000202,Melissa Bryant,73911,ADAMS ST,,Brooklyn,NY,11201,outdated_address
+POL-000203,Zachary Castaneda,61046,15TH ST,,Denver,CO,80202,outdated_address
+POL-000204,Edward Lyons,707,19TH ST,Apt. 369,Des Moines,IA,50314,clean
+POL-000205,Melissa Garner,2041,COLUMBINE AVE,Apt. 640,Boulder,CO,80302,clean
+POL-000206,Larry Crawford,99510,NW PRAIRIE LAKES DR,,Ankeny,IA,50023,outdated_address
+POL-000207,Connor King,65,BANNOCK ST,Suite 395,Denver,CO,80223,clean
+POL-000208,Patricia Becker,175,COLUMBIA HTS,,Brooklyn,NY,11201,missing_unit
+POL-000209,Amanda Diaz,90943,19TH ST,Apt. 104,Des Moines,IA,50314,outdated_address
+POL-000210,Casey Anderson,1440,28T HST,Apt. 145,Boulder,CO,80303,misspelling
+POL-000211,Valerie Schmidt,714,CLEVELAND ST,,Orlando,FL,33755,zip_city_mismatch
+POL-000212,Elizabeth Harrell,73,W FLAGLER ST,Suite 247,Miami,FL,33130,clean
+POL-000213,Julie Jones,1510,TALLEYRAND AVE,,Jacksonville,FL,32206,clean
+POL-000214,James Baker,301,S GULFVIEW BLVD,Apt. 685,Clearwater,FL,33767,clean
+POL-000215,Jacob Curry,1100,ASHWORTH RD,,West Des Moines,IA,50265,missing_unit
+POL-000216,James Little,57701,UNIVERSITY AVE,,Windsor Heights,IA,50324,outdated_address
+POL-000217,Stephen Hoffman,66083,LAKESIDE BLVD,Suite 137,Landing,NJ,07850,outdated_address
+POL-000218,Connie Brown,3416,MONCRIEF RD,,Orlando,FL,32209,zip_city_mismatch
+POL-000219,Susan Turner,516,E GRAND AVE,,Des Moines,IA,50309,clean
+POL-000220,Charles Shah,239,SW 9TH ST,,Miami,FL,33130,missing_unit
+POL-000221,Joshua Price,18TH,W 18TH ST,Suite 711,Jacksonville,FL,32209,clean
+POL-000222,Brittany Perry,3104,MONCRIEF RD,Suite 869,Jacksonville,FL,32209,clean
+POL-000223,John Russell,327,CLINTON ST,,Brooklyn,NY,11231,missing_unit
+POL-000224,Amanda Wood,1006,HOMESTAKE DR,,Golden,CO,80401,clean
+POL-000225,Trevor Foley,215,ADAMS ST,,Brooklyn,NY,11201,missing_unit
+POL-000226,Michael Stephens,13,WABASH TRL,,Andover,NJ,07821,missing_unit
+POL-000227,Bryan Charles,1717,N BAYSHOR EDR,Suite 064,Miami,FL,33132,misspelling
+POL-000228,Amber Cook,4,PEBBLE BEACH RD,Suite 139,Hopatcong,NJ,07843,clean
+POL-000229,Kristen Willis,407,SE DELAWARE AVE,Apt. 931,Ankeny,IA,50021,clean
+POL-000230,Crystal Schroeder,54249,IRIS CT,,Boulder,CO,80304,outdated_address
+POL-000231,Rebecca Rodriguez,73827,BLAKE ST,Apt. 422,Denver,CO,80202,outdated_address
+POL-000232,Bonnie Howard,520,D ST,,Clearwater,FL,33756,missing_unit
+POL-000233,Anthony Harmon,324,7T HST,Apt. 950,West Des Moines,IA,50265,misspelling
+POL-000234,Nichole Alvarez,2007,S COUNTRYSIDE CIR,,Orlando,FL,32804,clean
+POL-000235,Daniel Gilbert,91,WELDON RD,Suite 891,Lake Hopatcong,NJ,07849,clean
+POL-000236,Dr. Jessica Rodriguez DDS,25TH,W 25TH ST,,Jacksonville,FL,32209,missing_unit
+POL-000237,Steven Morris,3155,N ANKENY BLVD,,Ankeny,IA,50023,clean
+POL-000238,Cameron Weber,105,E 17TH ST,,New York,NY,10003,clean
+POL-000239,Michelle James,89316,NW 13TH AVE,,Miami,FL,33125,outdated_address
+POL-000240,Ricky Wilson,2270,BELL AVE,Suite 789,Des Moines,IA,50321,clean
+POL-000241,Sherry Arnold,465,ELTAI ST,,Denver,CO,80204,misspelling
+POL-000242,Ronald Ross,1940,BLAKE ST,Apt. 673,Denver,CO,80202,clean
+POL-000243,Jacqueline Hernandez,500,WELDON RD,Apt. 565,Lake Hopatcong,NJ,07849,clean
+POL-000244,Brent Rodgers,89416,WELDON RD,Suite 111,Lake Hopatcong,NJ,07849,outdated_address
+POL-000245,Kristina Santiago,130,5TH ST,,West Des Moines,IA,50265,missing_unit
+POL-000246,Lindsay Bell,1233,CEDAR AVE,Suite 560,Boulder,CO,80304,clean
+POL-000247,Christy Douglas,2007,S COUNTRYSIDE CIR,,Orlando,FL,32804,clean
+POL-000248,Brian Bruce,43,E 10TH ST,,New York,NY,10003,clean
+POL-000249,Phillip Andrews,86197,AVENUE OF THE AMERICAS,,New York,NY,10011,outdated_address
+POL-000250,Sarah Villegas,1375,S FORT HARRISON AVE,,Clearwater,FL,33756,clean
+POL-000251,Michael Parker,225,ADASM ST,Apt. 940,Brooklyn,NY,11201,misspelling
+POL-000252,Aaron Kane,1109,W 13TH AVE,,Denver,CO,80204,clean
+POL-000253,Jennifer Thomas,70271,E CHURCH ST,,Jacksonville,FL,32202,outdated_address
+POL-000254,Amanda Reese,2635,JUNIPER AVE,,Boulder,CO,80304,missing_unit
+POL-000255,Jason Peterson,2410,S WWHITE BIRCH DR,,Ankeny,IA,50023,misspelling
+POL-000256,Nathan Frank,119,COLUMBUS AVE,,Des Moines,IA,50315,clean
+POL-000257,Amber Miller,1162,W CYPRESS ST,Apt. 022,Orlando,FL,32805,clean
+POL-000258,Jeff Lawson,810,W 2ND VAE,,Denver,CO,80223,misspelling
+POL-000259,Jeffrey Campbell,175,ADMAS ST,Suite 438,Brooklyn,NY,11201,misspelling
+POL-000260,Katelyn Estrada,68359,5TH ST,,West Des Moines,IA,50265,outdated_address
+POL-000261,James Greene,82939,CLEVELAND ST,,Clearwater,FL,33755,outdated_address
+POL-000262,Eric Clark,71178,LAKESIDE BLVD,,Landing,NJ,07850,outdated_address
+POL-000263,Jonathan Jordan,1440,28TH ST,,Boulder,CO,80303,missing_unit
+POL-000264,Joseph Hall,2502,N WILDER RD,,Plant City,FL,33565,missing_unit
+POL-000265,Mary Gomez,1507,W REYNOLDS ST,,Plant City,FL,33563,clean
+POL-000266,Blake Edwards,145,UNIVERSITY AVE,,Des Moines,IA,50314,missing_unit
+POL-000267,Jared Bowman,83726,BILLINGS RD,,Hopatcong,NJ,07843,outdated_address
+POL-000268,Jared Burch,225,ADAMS ST,,Brooklyn,NY,11201,clean
+POL-000269,Travis Stevens,2410,SW WHITE IBRCH DR,,Ankeny,IA,50023,misspelling
+POL-000270,Heidi Kim,80686,N BAYSHORE DR,,Miami,FL,33132,outdated_address
+POL-000271,Blake Harrell,215,ADAMS ST,,Brooklyn,NY,11201,missing_unit
+POL-000272,Connie Maxwell,95870,WELLESLEY TRL,,Hopatcong,NJ,07843,outdated_address
+POL-000273,Susan Bailey,209,5TH ST,Apt. 818,West Des Moines,IA,50265,clean
+POL-000274,Sabrina Briggs,1012,E 4TH AVE,,Denver,CO,80218,clean
+POL-000275,Charles Gonzalez,1158,W 6TH ST,,Jacksonville,FL,32209,clean
+POL-000276,Justin Riley,138,LAKESIDE BLVD,Apt. 127,Landing,NJ,07850,clean
+POL-000277,Sonia Day,2,BILILNGS RD,,Hopatcong,NJ,07843,misspelling
+POL-000278,Mrs. Tricia Stewart,728,SE CREEKVIEW DR,,Ankeny,IA,50021,missing_unit
+POL-000279,Rebecca Vargas,1233,CEDAR AVE,Suite 177,Boulder,CO,80304,clean
+POL-000280,Andrew Wood,130,5TH ST,Suite 814,West Des Moines,IA,50265,clean
+POL-000281,Janice Carpenter,665,NW 14 ST,Suite 119,Miami,FL,33136,clean
+POL-000282,Nancy Williams,2500,JACKSON ST,,Golden,CO,80401,clean
+POL-000283,Laura Lopez,1510,TALLEYRAND AVE,,Jacksonville,FL,32206,clean
+POL-000284,Kathryn Rosario,73,W FLAGLER ST,,Miami,FL,33130,clean
+POL-000285,Carrie Wright,175,ADAMS ST,Suite 151,Brooklyn,NY,11201,clean
+POL-000286,Jeffrey Mills,1400,16TH ST,,Denver,CO,80202,clean
+POL-000287,Jake Campbell,71877,WELDON RD,,Lake Hopatcong,NJ,07849,outdated_address
+POL-000288,George Harper,407,SE DELAWARE AVE,,West Des Moines,IA,50021,zip_city_mismatch
+POL-000289,Maria Jones,301,S GULFVIEW BLVD,,Clearwater,FL,33767,missing_unit
+POL-000290,Samuel Brandt,665,NW 14 ST,Apt. 864,Miami,FL,33136,clean
+POL-000291,Sydney Collins,75884,OAK ST,Apt. 519,Orlando,FL,32804,outdated_address
+POL-000292,Mary Anderson,665,NW 14 ST,,Miami,FL,33136,clean
+POL-000293,Angela Hansen,54467,COLUMBINE AVE,,Boulder,CO,80302,outdated_address
+POL-000294,Erin Anderson,4,PEBBLE BEACH RD,,Hopatcong,NJ,07843,clean
+POL-000295,Theresa Osborn,84481,WABASH TRL,,Andover,NJ,07821,outdated_address
+POL-000296,Eric Bean,145,UNIVERSITY VAE,Apt. 685,Des Moines,IA,50314,misspelling
+POL-000297,Mrs. Elizabeth French DDS,1068,WELDON RD,Suite 733,Oak Ridge,NJ,07438,clean
+POL-000298,Brittany White,2114,BLUE AVE,Apt. 592,Jacksonville,FL,32209,clean
+POL-000299,Nathan Montes,2041,COLUMBINE AVE,Apt. 706,Golden,CO,80302,zip_city_mismatch
+POL-000300,Nicole Bowers,1541,BRICKELL AVE,,Miami,FL,33129,clean
+POL-000301,David Sheppard,209,5HT ST,,West Des Moines,IA,50265,misspelling
+POL-000302,Stephanie Lee,1456,LAKEVIEW RD,,Clearwater,FL,33756,clean
+POL-000303,Laura Alexander,57262,CLEVELAND ST,,Clearwater,FL,33755,outdated_address
+POL-000304,Paula Shaw,215,ADAMS ST,,Brooklyn,NY,11201,clean
+POL-000305,David Davidson,511,28TH ST,,Des Moines,IA,50312,missing_unit
+POL-000306,Dominique Hines,133,S ORANGE AVE,Suite 818,Orlando,FL,32801,clean
+POL-000307,Anna Lozano,67450,W 1ST ST,Suite 782,Jacksonville,FL,32209,outdated_address
+POL-000308,Stacey Arias,116,SE LORENZ DR,,Ankeny,IA,50021,clean
+POL-000309,James Miller,714,CLEVELADN ST,Suite 068,Clearwater,FL,33755,misspelling
+POL-000310,Fernando Garcia,89962,BOULDER ST,,Denver,CO,80211,outdated_address
+POL-000311,Ronald Horton,63,CANAL ST,Suite 220,Landing,NJ,07850,clean
+POL-000312,Bobby Scott,519,17THS T,Apt. 779,Des Moines,IA,50309,misspelling
+POL-000313,Kimberly Acosta,343,E CHURCH ST,,Jacksonville,FL,32202,missing_unit
+POL-000314,Ashley Roberts,511,28TH ST,,Des Moines,IA,50312,clean
+POL-000315,Anthony Barnes,68302,BRACKLAND ST,,Jacksonville,FL,32206,outdated_address
+POL-000316,Joyce Rodriguez,145,UNIVERSITY AVE,,Des Moines,IA,50314,missing_unit
+POL-000317,Linda Smith,665,NW 1 4ST,,Miami,FL,33136,misspelling
+POL-000318,Harry Duncan,1499,BLAKE ST,,Denver,CO,80202,missing_unit
+POL-000319,Joseph Romero,2635,JUNIPER AVE,Apt. 185,Boulder,CO,80304,clean
+POL-000320,Veronica King,1035,PAERL ST,Apt. 670,Boulder,CO,80302,misspelling
+POL-000321,Richard Cooper,1012,E 4TH AVE,,Denver,CO,80218,clean
+POL-000322,Lori Ingram,343,E CHURCH ST,,Jacksonville,FL,32202,missing_unit
+POL-000323,Robin Thompson,509,AVENUE OF THE AMERICAS,Suite 205,New York,NY,10011,clean
+POL-000324,Ricardo Ellis,1745,BOULDER ST,Suite 722,Denver,CO,80211,clean
+POL-000325,Andrew Gonzalez,407,3RD AVE,,New York,NY,10016,clean
+POL-000326,Robert Kennedy,1940,BLAKE ST,Apt. 548,Denver,CO,80202,clean
+POL-000327,Amber Rios,88870,N ORANGE AVE,Apt. 345,Orlando,FL,32801,outdated_address
+POL-000328,Robert Kim,1159,NW S1T PL,,Miami,FL,33136,misspelling
+POL-000329,Jeremiah Huber,55,SE 6TH ST,,Miami,FL,33131,missing_unit
+POL-000330,Cody Holt,110,WELLESLEY TRL,,Hopatcong,NJ,07843,clean
+POL-000331,Robert Adams,1159,NW 1ST PL,,Miami,FL,33136,clean
+POL-000332,Samantha Gardner,175,COLUMBIA HTS,Apt. 616,Brooklyn,NY,11201,clean
+POL-000333,Bobby Guerrero,6009,CRESTON AVE,,Des Moines,IA,50321,missing_unit
+POL-000334,Lance Simmons,55458,NW 11TH ST,,Miami,FL,33136,outdated_address
+POL-000335,Heather Williams,63,CANAL ST,,Landing,NJ,07850,missing_unit
+POL-000336,Heather Bolton,3705,CANFIELD ST,,Boulder,CO,80301,clean
+POL-000337,William Gould,509,AVENUE OF THEA MERICAS,,New York,NY,10011,misspelling
+POL-000338,Meghan Cisneros,36,E JACKOSN ST,Apt. 658,Orlando,FL,32801,misspelling
+POL-000339,Lawrence Harrington,1100,13TH ST,,Boulder,CO,80302,missing_unit
+POL-000340,Austin Osborne,747,NW 13TH AVE,,Miami,FL,33125,clean
+POL-000341,James Bradley,90749,BELL AVE,,Hopatcong,NJ,07843,outdated_address
+POL-000342,Billy Taylor,3327,NE RENAISSANCE DR,Apt. 755,Ankeny,IA,50021,clean
+POL-000343,Brian Fitzgerald,3250,ONEAL CIR,Suite 654,Boulder,CO,80301,clean
+POL-000344,Reginald Padilla,61795,JUNIPER AVE,Suite 868,Boulder,CO,80304,outdated_address
+POL-000345,Logan Benson,900,OAK ST,,Plant City,FL,32804,zip_city_mismatch
+POL-000346,Jodi Roach,2,BILLINGS RD,Suite 312,Hopatcong,NJ,07843,clean
+POL-000347,Krista Roberts,39,LAUREL TRL,Suite 155,Wharton,NJ,07843,zip_city_mismatch
+POL-000348,Christopher Mckinney,1505,S MCDONALD ST,,Plant City,FL,33563,clean
+POL-000349,Carrie Ward,414,N SHANNON ESTATES CT,,Plant City,FL,33563,clean
+POL-000350,William Conner,1260,GLENARM PL,,Denver,CO,80204,clean

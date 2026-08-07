@@ -78,12 +78,15 @@ def _bbox(lat: float, lon: float, half_size_deg: float) -> str:
 
 
 def _get_items(collection: str, bbox: str, limit: int) -> list:
-    resp = requests.get(
-        ITEMS_URL.format(collection=collection),
-        params={"bbox": bbox, "limit": limit},
-        headers=AUTH_HEADERS,
-        timeout=15,
-    )
+    try:
+        resp = requests.get(
+            ITEMS_URL.format(collection=collection),
+            params={"bbox": bbox, "limit": limit},
+            headers=AUTH_HEADERS,
+            timeout=15,
+        )
+    except requests.RequestException:
+        return []
     if resp.status_code != 200:
         return []
     return resp.json().get("features", [])
