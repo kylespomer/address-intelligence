@@ -25,6 +25,15 @@ Every row gets an `injected_error` column recording which error type (if any)
 was applied, so match-rate improvement can be measured against ground truth
 later rather than eyeballed.
 
+Every record also gets a `stated_property_type` -- what the policyholder
+declared on their application, chosen independently of the real address'
+actual property type. This is deliberately NOT derived from the real
+address, so it sometimes coincidentally matches what enrichment later
+reveals and sometimes doesn't -- that gap is what ai_layer.py's anomaly
+flag is built on (self-reported vs. enriched-data mismatch, a real
+underwriting/fraud concern), computed deterministically from this real
+field rather than left for an LLM to guess at with no ground truth.
+
 Usage:
     python src/fetch_real_addresses.py          # one-time, builds the real-address pool
     python src/generate_dataset.py --n 350 --seed 42
@@ -47,6 +56,18 @@ ERROR_TYPES = [
 ]
 # Weights matching the methodology above: 15/15/10/10/50
 ERROR_WEIGHTS = [15, 15, 10, 10, 50]
+
+# What a policyholder might declare on an application. Rough mix for a
+# residential-leaning book of business; kept in sync with the categories
+# ai_layer.py normalizes real enrichment property types into.
+STATED_PROPERTY_TYPES = [
+    "Single Family Residence",
+    "Multi-Family / Rental",
+    "Condominium / Townhome",
+    "Vacant Land",
+    "Commercial",
+]
+STATED_PROPERTY_TYPE_WEIGHTS = [55, 15, 10, 10, 10]
 
 REAL_ADDRESSES_PATH = Path("data/reference/real_addresses.csv")
 
@@ -122,6 +143,10 @@ def build_record(fake: Faker, pool: list, cities_by_state: dict, policy_id: int)
     elif error == "outdated_address":
         street_number = outdate_address(street_number)
 
+    stated_property_type = random.choices(
+        STATED_PROPERTY_TYPES, weights=STATED_PROPERTY_TYPE_WEIGHTS, k=1
+    )[0]
+
     return {
         "policy_id": f"POL-{policy_id:06d}",
         "policyholder_name": fake.name(),
@@ -132,6 +157,7 @@ def build_record(fake: Faker, pool: list, cities_by_state: dict, policy_id: int)
         "state": state,
         "zip": zip_code,
         "injected_error": error or "clean",
+        "stated_property_type": stated_property_type,
     }
 
 

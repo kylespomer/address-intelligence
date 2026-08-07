@@ -1,351 +1,351 @@
-policy_id,policyholder_name,street_number,street_name,unit,city,state,zip,injected_error
-POL-000001,Noah Rhodes,3446,IRIS CT,Apt. 043,Boulder,CO,80304,clean
-POL-000002,Daniel Wagner,1831,BRACKLAND ST,Apt. 960,Jacksonville,FL,32206,clean
-POL-000003,Cristian Santos,3705,CANFIELD ST,,Boulder,CO,80301,clean
-POL-000004,Connie Lawrence,65,BANNOCK ST,,Denver,CO,80223,misspelling
-POL-000005,Abigail Shaffer,1415,TATF AVE,,Clearwater,FL,33755,misspelling
-POL-000006,Gina Moore,518,PARKVIEW CT,,Golden,CO,80403,clean
-POL-000007,Gabrielle Davis,221,TURNER ST,,Clearwater,FL,33756,missing_unit
-POL-000008,Ryan Munoz,544,N BUMBY AVE,,Orlando,FL,32803,missing_unit
-POL-000009,Jamie Arnold,516,E GRAND AVE,,Des Moines,IA,50309,missing_unit
-POL-000010,Darren Roberts,327,CILNTON ST,Suite 931,Brooklyn,NY,11231,misspelling
-POL-000011,David Garcia,1200,BRICKELL AVE,,Miami,FL,33131,clean
-POL-000012,Daniel Adams,58217,W 12TH ST,Suite 752,New York,NY,10011,outdated_address
-POL-000013,Carla Gray,1150,NW 8TH STREET RD,,Miami,FL,33136,missing_unit
-POL-000014,Margaret Hawkins DDS,1940,BLAKE ST,,Denver,CO,80202,clean
-POL-000015,Austin Gentry,810,W 2ND VAE,Apt. 305,Denver,CO,80223,misspelling
-POL-000016,Michelle Lewis,811,CLEVELAND ST,,Clearwater,FL,33755,clean
-POL-000017,Dr. Marvin Thomas Jr.,1415,TAFT AVE,,Plant City,FL,33755,zip_city_mismatch
-POL-000018,Kimberly Burgess,1020,15TH ST,,Denver,CO,80202,missing_unit
-POL-000019,Zachary Hicks,239,SW 9TH ST,,Miami,FL,33130,missing_unit
-POL-000020,Anthony Rodriguez,970,AURORA AVE,,Boulder,CO,80302,clean
-POL-000021,Rebecca Henderson,222,SPARTA MT RD,,Oak Ridge,NJ,07438,missing_unit
-POL-000022,Kendra Maddox DVM,411,LAUREL ST,Apt. 669,Des Moines,IA,50314,clean
-POL-000023,Nathan Maldonado,3446,IRIS CT,,Boulder,CO,80304,missing_unit
-POL-000024,Debra Davidson,55,SE 6TH ST,,Miami,FL,33131,clean
-POL-000025,Jeffrey Chavez,811,CLEVELAND ST,,Clearwater,FL,33755,clean
-POL-000026,Sheila Evans,1507,W REYNOLDS ST,,Plant City,FL,33563,missing_unit
-POL-000027,Lisa Hernandez,2261,BLAKE ST,,Golden,CO,80205,zip_city_mismatch
-POL-000028,Kimberly Osborne,141,ALEXANDER WOODS DR,,Plant City,FL,33563,clean
-POL-000029,Timothy Koch,63,CANAL ST,,Landing,NJ,07850,missing_unit
-POL-000030,Elizabeth Brown,3327,NE RENAISSANCE DR,,Ankeny,IA,50021,clean
-POL-000031,Theresa Miller,2270,BELL AVE,,Ankeny,IA,50321,zip_city_mismatch
-POL-000032,Mr. Philip Cannon,172,DRATMOUTH TRL,,Hopatcong,NJ,07843,misspelling
-POL-000033,Shane Henderson,518,LAKESIDE AVE,,Andover,NJ,07821,missing_unit
-POL-000034,Joshua Blair,970,AUROAR AVE,,Boulder,CO,80302,misspelling
-POL-000035,Eric Carney,1109,W 13TH AVE,,Denver,CO,80204,clean
-POL-000036,Jessica Holmes,407,SE DELAWARE VAE,,Ankeny,IA,50021,misspelling
-POL-000037,Danny Morgan,2,BILLINGS RD,,Hopatcong,NJ,07843,clean
-POL-000038,Crystal Robinson,1336,CLEVELAND ST,,Orlando,FL,32209,zip_city_mismatch
-POL-000039,Shannon Jones,707,19T HST,Apt. 031,Des Moines,IA,50314,misspelling
-POL-000040,Michael Lewis,1136,NE 7TH LN,,Ankeny,IA,50021,clean
-POL-000041,Timothy Duncan,147,BELL AVE,,Hopatcong,NJ,07843,missing_unit
-POL-000042,Richard Aguirre,3446,IRIS CT,,Boulder,CO,80304,missing_unit
-POL-000043,Brent Jordan,150,SE 2ND AVE,,Miami,FL,33131,clean
-POL-000044,John Daniel,279,WATER ST,,New York,NY,10038,clean
-POL-000045,Ashley Lee,1112,E 4HT AVE,Apt. 065,Denver,CO,80218,misspelling
-POL-000046,Brenda White,175,COLUMBIA HTS,,Brooklyn,NY,11201,missing_unit
-POL-000047,Shannon Jones,1501,S FORT HARRISON AVE,,Clearwater,FL,33756,clean
-POL-000048,Savannah Garcia,11,DEER TRL,,Hopatcong,NJ,07843,clean
-POL-000049,Kimberly Smith,215,ADAM SST,,Brooklyn,NY,11201,misspelling
-POL-000050,Mr. James Brown,405,SW 3RD ST,Apt. 326,Ankeny,IA,50023,clean
-POL-000051,William Baker,1012,E 4TH AVE,,Denver,CO,80218,missing_unit
-POL-000052,Jordan Henderson,2410,SW WHITE BIRCH DR,,Ankeny,IA,50023,clean
-POL-000053,Anthony Fitzgerald,722,WASHINGTON AVE,Suite 234,Golden,CO,80401,clean
-POL-000054,Kathryn Farrell,2041,COLUMBINE AVE,Apt. 500,Boulder,CO,80302,clean
-POL-000055,Andrea Jones,945,19TH ST,,Des Moines,IA,50314,missing_unit
-POL-000056,Kristopher Harvey,524,NW 11TH ST,Apt. 619,Miami,FL,33136,clean
-POL-000057,Dean Santiago,1400,1T6H ST,Suite 998,Denver,CO,80202,misspelling
-POL-000058,Matthew Bryant,811,CLEVELNAD ST,Suite 346,Clearwater,FL,33755,misspelling
-POL-000059,Taylor Smith,2007,S COUNTRYSIDE CIR,,Orlando,FL,32804,missing_unit
-POL-000060,Brandi Bailey,209,5THS T,Apt. 183,West Des Moines,IA,50265,misspelling
-POL-000061,David Mitchell,810,W 2ND AVE,,Denver,CO,80223,clean
-POL-000062,Joshua Turner,37,W 12THS T,,New York,NY,10011,misspelling
-POL-000063,Brandy Wilson,97899,COLUMBUS AVE,Apt. 841,Des Moines,IA,50315,outdated_address
-POL-000064,Juan Nelson,363,N ORANGE AVE,,Orlando,FL,32801,clean
-POL-000065,Danielle Odonnell,13,WABASH TRL,Apt. 534,Andover,NJ,07821,clean
-POL-000066,Mark Calderon,504,GRAND ST,,New York,NY,10002,missing_unit
-POL-000067,Gavin Anderson,301,S GLUFVIEW BLVD,,Clearwater,FL,33767,misspelling
-POL-000068,Candice Ramos,1816,TYLER ST,,Jacksonville,FL,32209,clean
-POL-000069,Kristina Rodriguez,128,LAKESIDE BLVD,,Hopatcong,NJ,07843,clean
-POL-000070,Brittany Anderson,405,SW 3RD ST,Apt. 805,Ankeny,IA,50023,clean
-POL-000071,Steven Flynn,2410,SW WHITE BIRCH DR,,Ankeny,IA,50023,clean
-POL-000072,Stephanie Clark,1407,WASHINGTON AVE,,Golden,CO,80401,missing_unit
-POL-000073,Brian Deleon,209,5TH ST,,West Des Moines,IA,50265,clean
-POL-000074,Vanessa Cochran,1400,N ORANGE BLOSOSM TRL,Suite 923,Orlando,FL,32804,misspelling
-POL-000075,Allison Doyle,2114,BLUE AVE,,Jacksonville,FL,32209,clean
-POL-000076,Timothy Pham,343,E CHURCH ST,,Jacksonville,FL,32202,clean
-POL-000077,Rita Adams,50,W 9TH ST,,New York,NY,10011,clean
-POL-000078,Robert Stevens,1068,WELDON RD,,Oak Ridge,NJ,07438,missing_unit
-POL-000079,Robert Perez,1007,W GORE ST,,Orlando,FL,32805,clean
-POL-000080,Benjamin Ayala,2500,JACKOSN ST,Apt. 365,Golden,CO,80401,misspelling
-POL-000081,Jordan Frazier,1136,NE 7TH LN,,Ankeny,IA,50021,clean
-POL-000082,Erin Johnson,1007,W OGRE ST,,Orlando,FL,32805,misspelling
-POL-000083,Debbie Carpenter,784,E MICHIGAN ST,,Orlando,FL,32806,clean
-POL-000084,Mrs. Linda Reed,1456,LAKEVIEW RD,,Clearwater,FL,33756,clean
-POL-000085,Steven Lee,2261,BLAKE ST,Suite 698,Denver,CO,80205,clean
-POL-000086,Kimberly Ball,1745,BOULDER ST,Apt. 608,Denver,CO,80211,clean
-POL-000087,Megan Diaz,891,14TH ST,,Denver,CO,80202,clean
-POL-000088,Matthew Rivera,24,AVALON ST,,Orlando,FL,33767,zip_city_mismatch
-POL-000089,Jason Powell,141,ALEXANDER WOODS DR,Suite 148,Plant City,FL,33563,clean
-POL-000090,Todd Byrd,519,17TH ST,Suite 823,Des Moines,IA,50309,clean
-POL-000091,Roy Torres,2007,S COUNTRYSIDE CIR,Apt. 994,Orlando,FL,32804,clean
-POL-000092,Richard Lawson,891,14HT ST,,Denver,CO,80202,misspelling
-POL-000093,Kayla Leon,350,NW GEORGETOWN BLVD,Suite 777,Ankeny,IA,50023,clean
-POL-000094,Nancy Hopkins,784,E MICHIGAN ST,,Jacksonville,FL,32806,zip_city_mismatch
-POL-000095,Matthew Harvey,616,SE 10TH ST,,Des Moines,IA,50309,clean
-POL-000096,Trevor Young,465,ELATI ST,,Denver,CO,80204,clean
-POL-000097,David Alvarez,116,SE LORENZ DR,Suite 332,Ankeny,IA,50021,clean
-POL-000098,Angel Perry,1912,BRAKCLAND ST,,Jacksonville,FL,32206,misspelling
-POL-000099,Matthew Smith,2114,BLUE VAE,Apt. 676,Jacksonville,FL,32209,misspelling
-POL-000100,Melissa Marshall,1068,WELDON RD,Apt. 632,Oak Ridge,NJ,07438,clean
-POL-000101,Mary Travis,518,PARKVIEW CT,Apt. 172,Golden,CO,80403,clean
-POL-000102,Tiffany Vance,2114,BLUE AVE,,Jacksonville,FL,32209,missing_unit
-POL-000103,Karen Green,68495,N ORANGE AVE,Suite 872,Orlando,FL,32801,outdated_address
-POL-000104,Denise Jones,900,OAK ST,Apt. 487,Orlando,FL,32804,clean
-POL-000105,Devon Flores,3446,IRIS CT,,Boulder,CO,80304,missing_unit
-POL-000106,Brenda Hall,51144,28TH ST,,Des Moines,IA,50312,outdated_address
-POL-000107,Joshua Perry,518,LAKESIDE AVE,Apt. 316,Andover,NJ,07821,clean
-POL-000108,Jason Stein,91,WELDON RD,,Lake Hopatcong,NJ,07849,clean
-POL-000109,Melissa Gates,55701,INCA ST,,Denver,CO,80202,outdated_address
-POL-000110,James Snow,3416,MONCRIEF RD,Suite 705,Jacksonville,FL,32209,clean
-POL-000111,Kimberly Navarro,888,N ORANGE AVE,,Orlando,FL,32801,missing_unit
-POL-000112,Stephanie Freeman,1351,W 5TH ST,,Plant City,FL,32209,zip_city_mismatch
-POL-000113,John Price,1745,BOULDER ST,,Denver,CO,80211,clean
-POL-000114,Rebecca Ramsey,1456,LAKEVIEW RD,,Clearwater,FL,33756,clean
-POL-000115,James Elliott,61876,ASHLAND PL,Suite 298,Brooklyn,NY,11201,outdated_address
-POL-000116,Marvin Taylor,325,JEFFERSON COUNTY PKWY,,Golden,CO,80401,clean
-POL-000117,Anthony Gray,2502,N WILDER RD,,Plant City,FL,33565,clean
-POL-000118,Jamie Walton,122,ASHLAND PL,,Brooklyn,NY,11201,missing_unit
-POL-000119,Joshua Cooke,2635,JUNIPER AVE,Suite 417,Boulder,CO,80304,clean
-POL-000120,Tiffany Gonzalez,130,5TH ST,Suite 310,West Des Moines,IA,50265,clean
-POL-000121,Michael Elliott,519,17TH ST,Apt. 923,Des Moines,IA,50309,clean
-POL-000122,Lawrence Adkins,811,CLEVELAND ST,Apt. 745,Clearwater,FL,33755,clean
-POL-000123,Tanya Johnston,1507,W REYNOLDS ST,Apt. 241,Plant City,FL,33563,clean
-POL-000124,Sandra Sanchez,20,N MOORE ST,Suite 631,New York,NY,10013,clean
-POL-000125,Elizabeth Sutton,1507,W REYNOLDS ST,,Plant City,FL,33563,clean
-POL-000126,Rebecca Knight,2625,SW R3D AVE,,Miami,FL,33129,misspelling
-POL-000127,Joseph Stanley,715,GROVE ST,,Clearwater,FL,33755,clean
-POL-000128,Samantha Garcia,99925,FOREST CIR,Apt. 850,Orlando,FL,32803,outdated_address
-POL-000129,Joseph Santos,43,E 10TH ST,Suite 726,New York,NY,10003,clean
-POL-000130,Samuel Rivas,1380,SW DISTRICT DR,Suite 769,Ankeny,IA,50023,clean
-POL-000131,Laura Barnett,301,S GULFVIEW BLVD,Apt. 473,Clearwater,FL,33767,clean
-POL-000132,Johnny Nguyen,1315,S ORANGE AVE,,Orlando,FL,32806,clean
-POL-000133,Mr. David Ramirez,2701,CANYON BLVD,,Boulder,CO,80302,clean
-POL-000134,Angela Cortez,94971,28TH ST,Suite 808,Boulder,CO,80303,outdated_address
-POL-000135,Peter Vaughn DDS,2625,SW 3RD AVE,,Miami,FL,33129,clean
-POL-000136,Ricky Davis II,33,JEFFERSON TRL,,Landing,NJ,07843,zip_city_mismatch
-POL-000137,Elizabeth Perkins,71901,13TH ST,,Boulder,CO,80304,outdated_address
-POL-000138,Patrick Rivera,75254,SE DELAWARE AVE,Suite 885,Ankeny,IA,50021,outdated_address
-POL-000139,Denise King,3705,CANFIELD ST,,Boulder,CO,80301,missing_unit
-POL-000140,Tiffany Vaughn,2261,BLAKE ST,Apt. 351,Denver,CO,80205,clean
-POL-000141,Vanessa Warren,1315,S ORANGE AVE,,Orlando,FL,32806,missing_unit
-POL-000142,Brian Lee,43,E 10TH ST,,New York,NY,10003,clean
-POL-000143,Christopher Smith,1203,MURPHY ST,,Des Moines,IA,50309,clean
-POL-000144,Denise Mccann,1380,SW DISTRICT DR,,Ankeny,IA,50023,clean
-POL-000145,Melissa Martinez,247,HENRY ST,,New York,NY,10002,clean
-POL-000146,Katherine Salas,1309,N LEE ST,,Jacksonville,FL,32209,clean
-POL-000147,Vincent King,1035,NW 11TH CT,Suite 777,Miami,FL,33136,clean
-POL-000148,Ashley Jones,1456,LAKEVIEW RD,,Clearwater,FL,33756,missing_unit
-POL-000149,Robert Avery,327,CORONADOD R,Suite 190,Clearwater,FL,33767,misspelling
-POL-000150,David Grant,465,ELAT IST,,Denver,CO,80204,misspelling
-POL-000151,Kyle Montgomery,975,N LINCOLN ST,,Denver,CO,80203,clean
-POL-000152,Jamie Kerr,665,NW 14 ST,,Miami,FL,33136,missing_unit
-POL-000153,Kevin Patterson,2140,JORDAN PL,,Boulder,CO,80304,clean
-POL-000154,Amy Choi,20,N MOORE ST,,New York,NY,10013,clean
-POL-000155,Brooke Thompson,221,TURNER ST,Apt. 334,Clearwater,FL,33756,clean
-POL-000156,Aaron Hayes,1622,SE DELAWARE AVE,,Ankeny,IA,50021,clean
-POL-000157,Doris Hall,33,JEFFERSON TRL,,Hopatcong,NJ,07843,clean
-POL-000158,Michele Gibson,2525,13TH ST,,Boulder,CO,80304,clean
-POL-000159,Tammy French,1541,BRICKELL AVE,,Miami,FL,33129,clean
-POL-000160,Mary Peck,465,ELATI ST,,Denver,CO,80204,clean
-POL-000161,Joshua Holland,2270,BELL AVE,,Des Moines,IA,50321,clean
-POL-000162,Samantha Jones,67486,WELDON RD,,Lake Hopatcong,NJ,07849,outdated_address
-POL-000163,Jessica Harrison,1407,WASHINGTON AVE,Apt. 499,Golden,CO,80401,clean
-POL-000164,James Nelson,66086,3RD AVE,,New York,NY,10016,outdated_address
-POL-000165,Jessica George,1510,TALLEYRAND AVE,,Jacksonville,FL,32206,clean
-POL-000166,Darryl Craig,1456,LAKEVIEW RD,Suite 594,Jacksonville,FL,33756,zip_city_mismatch
-POL-000167,Casey Stone,172,DARTMOUTH TRL,Apt. 490,Lake Hopatcong,NJ,07843,zip_city_mismatch
-POL-000168,Robert Costa,72917,CEDAR AVE,Suite 429,Boulder,CO,80304,outdated_address
-POL-000169,Jason Morris,2410,SW WHITE BIRCHD R,,Ankeny,IA,50023,misspelling
-POL-000170,Donna Landry,1505,S MCDONALD ST,Apt. 256,Plant City,FL,33563,clean
-POL-000171,Brian Barton,800,28TH ST,Apt. 715,Boulder,CO,80303,clean
-POL-000172,Joseph Dean,810,W 2DN AVE,Apt. 876,Denver,CO,80223,misspelling
-POL-000173,Mr. Anthony Adams Jr.,1912,BRACKLAND ST,,Jacksonville,FL,32206,clean
-POL-000174,Stanley Washington,24,CLINTON ST,,Brooklyn,NY,11201,clean
-POL-000175,Mark Lloyd,209,E 1ST ST,,Ankeny,IA,50021,clean
-POL-000176,Anna Gay,52111,5TH ST,Apt. 480,West Des Moines,IA,50265,outdated_address
-POL-000177,Dr. Jordan Hill PhD,2104,GRAYSON WOODS CT,Apt. 712,Plant City,FL,33563,clean
-POL-000178,Mrs. Kristen Reyes,108,ALEXANDER WOODS DR,,Plant City,FL,33563,clean
-POL-000179,Katie Suarez,4,PEBBLE BEACH RD,,Hopatcong,NJ,07843,clean
-POL-000180,Desiree Tyler,1943,GREENWOOD VALLEY DR,,Plant City,FL,33563,clean
-POL-000181,Timothy Romero,11,DEERT RL,,Hopatcong,NJ,07843,misspelling
-POL-000182,Mary Grimes,714,CLEVELAND ST,Apt. 449,Miami,FL,33755,zip_city_mismatch
-POL-000183,Phillip Bennett,145,UNIVERSITY AVE,Suite 875,Des Moines,IA,50314,clean
-POL-000184,Scott Jenkins,747,NW 13TH AVE,Suite 339,Miami,FL,33125,clean
-POL-000185,Rebecca Pearson MD,1505,SM CDONALD ST,Suite 766,Plant City,FL,33563,misspelling
-POL-000186,Beth Sanford,2500,JACKSON ST,,Golden,CO,80401,clean
-POL-000187,Joyce Bowen,1543,SW 7THS T,Suite 171,Miami,FL,33135,misspelling
-POL-000188,Matthew Moore,888,N ORANGE AVE,,Orlando,FL,32801,clean
-POL-000189,Wayne Morgan,805,PARK ST,,Clearwater,FL,33756,clean
-POL-000190,Eugene Higgins,1501,S FORT HARRISON AVE,Suite 158,Clearwater,FL,33756,clean
-POL-000191,Shelia Johnson,67684,14TH ST,,Denver,CO,80202,outdated_address
-POL-000192,Jessica Garcia,407,3RD AVE,Apt. 343,New York,NY,10016,clean
-POL-000193,Shelia Wallace,2500,JACKSON ST,,Golden,CO,80401,clean
-POL-000194,Stephanie Williams,38,HGIHVIEW TRL,,Wharton,NJ,07885,misspelling
-POL-000195,Elaine Brooks,1158,W 6TH ST,,Jacksonville,FL,32209,clean
-POL-000196,Rebecca Jackson,1150,NW 8TH STREET RD,Apt. 386,Miami,FL,33136,clean
-POL-000197,Seth Harvey,128,LAKESIDE BLVD,,Hopatcong,NJ,07843,clean
-POL-000198,Mark Stevens,1831,BRACKLAND ST,Apt. 792,Jacksonville,FL,32206,clean
-POL-000199,Stephanie Marshall,2701,CNAYON BLVD,,Boulder,CO,80302,misspelling
-POL-000200,Joshua Jones,1608,NW 7TH AVE,,Miami,FL,33136,clean
-POL-000201,Victoria Evans,784,E MICHIGAN ST,,Plant City,FL,32806,zip_city_mismatch
-POL-000202,Melissa Bryant,73911,ADAMS ST,,Brooklyn,NY,11201,outdated_address
-POL-000203,Zachary Castaneda,61046,15TH ST,,Denver,CO,80202,outdated_address
-POL-000204,Edward Lyons,707,19TH ST,Apt. 369,Des Moines,IA,50314,clean
-POL-000205,Melissa Garner,2041,COLUMBINE AVE,Apt. 640,Boulder,CO,80302,clean
-POL-000206,Larry Crawford,99510,NW PRAIRIE LAKES DR,,Ankeny,IA,50023,outdated_address
-POL-000207,Connor King,65,BANNOCK ST,Suite 395,Denver,CO,80223,clean
-POL-000208,Patricia Becker,175,COLUMBIA HTS,,Brooklyn,NY,11201,missing_unit
-POL-000209,Amanda Diaz,90943,19TH ST,Apt. 104,Des Moines,IA,50314,outdated_address
-POL-000210,Casey Anderson,1440,28T HST,Apt. 145,Boulder,CO,80303,misspelling
-POL-000211,Valerie Schmidt,714,CLEVELAND ST,,Orlando,FL,33755,zip_city_mismatch
-POL-000212,Elizabeth Harrell,73,W FLAGLER ST,Suite 247,Miami,FL,33130,clean
-POL-000213,Julie Jones,1510,TALLEYRAND AVE,,Jacksonville,FL,32206,clean
-POL-000214,James Baker,301,S GULFVIEW BLVD,Apt. 685,Clearwater,FL,33767,clean
-POL-000215,Jacob Curry,1100,ASHWORTH RD,,West Des Moines,IA,50265,missing_unit
-POL-000216,James Little,57701,UNIVERSITY AVE,,Windsor Heights,IA,50324,outdated_address
-POL-000217,Stephen Hoffman,66083,LAKESIDE BLVD,Suite 137,Landing,NJ,07850,outdated_address
-POL-000218,Connie Brown,3416,MONCRIEF RD,,Orlando,FL,32209,zip_city_mismatch
-POL-000219,Susan Turner,516,E GRAND AVE,,Des Moines,IA,50309,clean
-POL-000220,Charles Shah,239,SW 9TH ST,,Miami,FL,33130,missing_unit
-POL-000221,Joshua Price,18TH,W 18TH ST,Suite 711,Jacksonville,FL,32209,clean
-POL-000222,Brittany Perry,3104,MONCRIEF RD,Suite 869,Jacksonville,FL,32209,clean
-POL-000223,John Russell,327,CLINTON ST,,Brooklyn,NY,11231,missing_unit
-POL-000224,Amanda Wood,1006,HOMESTAKE DR,,Golden,CO,80401,clean
-POL-000225,Trevor Foley,215,ADAMS ST,,Brooklyn,NY,11201,missing_unit
-POL-000226,Michael Stephens,13,WABASH TRL,,Andover,NJ,07821,missing_unit
-POL-000227,Bryan Charles,1717,N BAYSHOR EDR,Suite 064,Miami,FL,33132,misspelling
-POL-000228,Amber Cook,4,PEBBLE BEACH RD,Suite 139,Hopatcong,NJ,07843,clean
-POL-000229,Kristen Willis,407,SE DELAWARE AVE,Apt. 931,Ankeny,IA,50021,clean
-POL-000230,Crystal Schroeder,54249,IRIS CT,,Boulder,CO,80304,outdated_address
-POL-000231,Rebecca Rodriguez,73827,BLAKE ST,Apt. 422,Denver,CO,80202,outdated_address
-POL-000232,Bonnie Howard,520,D ST,,Clearwater,FL,33756,missing_unit
-POL-000233,Anthony Harmon,324,7T HST,Apt. 950,West Des Moines,IA,50265,misspelling
-POL-000234,Nichole Alvarez,2007,S COUNTRYSIDE CIR,,Orlando,FL,32804,clean
-POL-000235,Daniel Gilbert,91,WELDON RD,Suite 891,Lake Hopatcong,NJ,07849,clean
-POL-000236,Dr. Jessica Rodriguez DDS,25TH,W 25TH ST,,Jacksonville,FL,32209,missing_unit
-POL-000237,Steven Morris,3155,N ANKENY BLVD,,Ankeny,IA,50023,clean
-POL-000238,Cameron Weber,105,E 17TH ST,,New York,NY,10003,clean
-POL-000239,Michelle James,89316,NW 13TH AVE,,Miami,FL,33125,outdated_address
-POL-000240,Ricky Wilson,2270,BELL AVE,Suite 789,Des Moines,IA,50321,clean
-POL-000241,Sherry Arnold,465,ELTAI ST,,Denver,CO,80204,misspelling
-POL-000242,Ronald Ross,1940,BLAKE ST,Apt. 673,Denver,CO,80202,clean
-POL-000243,Jacqueline Hernandez,500,WELDON RD,Apt. 565,Lake Hopatcong,NJ,07849,clean
-POL-000244,Brent Rodgers,89416,WELDON RD,Suite 111,Lake Hopatcong,NJ,07849,outdated_address
-POL-000245,Kristina Santiago,130,5TH ST,,West Des Moines,IA,50265,missing_unit
-POL-000246,Lindsay Bell,1233,CEDAR AVE,Suite 560,Boulder,CO,80304,clean
-POL-000247,Christy Douglas,2007,S COUNTRYSIDE CIR,,Orlando,FL,32804,clean
-POL-000248,Brian Bruce,43,E 10TH ST,,New York,NY,10003,clean
-POL-000249,Phillip Andrews,86197,AVENUE OF THE AMERICAS,,New York,NY,10011,outdated_address
-POL-000250,Sarah Villegas,1375,S FORT HARRISON AVE,,Clearwater,FL,33756,clean
-POL-000251,Michael Parker,225,ADASM ST,Apt. 940,Brooklyn,NY,11201,misspelling
-POL-000252,Aaron Kane,1109,W 13TH AVE,,Denver,CO,80204,clean
-POL-000253,Jennifer Thomas,70271,E CHURCH ST,,Jacksonville,FL,32202,outdated_address
-POL-000254,Amanda Reese,2635,JUNIPER AVE,,Boulder,CO,80304,missing_unit
-POL-000255,Jason Peterson,2410,S WWHITE BIRCH DR,,Ankeny,IA,50023,misspelling
-POL-000256,Nathan Frank,119,COLUMBUS AVE,,Des Moines,IA,50315,clean
-POL-000257,Amber Miller,1162,W CYPRESS ST,Apt. 022,Orlando,FL,32805,clean
-POL-000258,Jeff Lawson,810,W 2ND VAE,,Denver,CO,80223,misspelling
-POL-000259,Jeffrey Campbell,175,ADMAS ST,Suite 438,Brooklyn,NY,11201,misspelling
-POL-000260,Katelyn Estrada,68359,5TH ST,,West Des Moines,IA,50265,outdated_address
-POL-000261,James Greene,82939,CLEVELAND ST,,Clearwater,FL,33755,outdated_address
-POL-000262,Eric Clark,71178,LAKESIDE BLVD,,Landing,NJ,07850,outdated_address
-POL-000263,Jonathan Jordan,1440,28TH ST,,Boulder,CO,80303,missing_unit
-POL-000264,Joseph Hall,2502,N WILDER RD,,Plant City,FL,33565,missing_unit
-POL-000265,Mary Gomez,1507,W REYNOLDS ST,,Plant City,FL,33563,clean
-POL-000266,Blake Edwards,145,UNIVERSITY AVE,,Des Moines,IA,50314,missing_unit
-POL-000267,Jared Bowman,83726,BILLINGS RD,,Hopatcong,NJ,07843,outdated_address
-POL-000268,Jared Burch,225,ADAMS ST,,Brooklyn,NY,11201,clean
-POL-000269,Travis Stevens,2410,SW WHITE IBRCH DR,,Ankeny,IA,50023,misspelling
-POL-000270,Heidi Kim,80686,N BAYSHORE DR,,Miami,FL,33132,outdated_address
-POL-000271,Blake Harrell,215,ADAMS ST,,Brooklyn,NY,11201,missing_unit
-POL-000272,Connie Maxwell,95870,WELLESLEY TRL,,Hopatcong,NJ,07843,outdated_address
-POL-000273,Susan Bailey,209,5TH ST,Apt. 818,West Des Moines,IA,50265,clean
-POL-000274,Sabrina Briggs,1012,E 4TH AVE,,Denver,CO,80218,clean
-POL-000275,Charles Gonzalez,1158,W 6TH ST,,Jacksonville,FL,32209,clean
-POL-000276,Justin Riley,138,LAKESIDE BLVD,Apt. 127,Landing,NJ,07850,clean
-POL-000277,Sonia Day,2,BILILNGS RD,,Hopatcong,NJ,07843,misspelling
-POL-000278,Mrs. Tricia Stewart,728,SE CREEKVIEW DR,,Ankeny,IA,50021,missing_unit
-POL-000279,Rebecca Vargas,1233,CEDAR AVE,Suite 177,Boulder,CO,80304,clean
-POL-000280,Andrew Wood,130,5TH ST,Suite 814,West Des Moines,IA,50265,clean
-POL-000281,Janice Carpenter,665,NW 14 ST,Suite 119,Miami,FL,33136,clean
-POL-000282,Nancy Williams,2500,JACKSON ST,,Golden,CO,80401,clean
-POL-000283,Laura Lopez,1510,TALLEYRAND AVE,,Jacksonville,FL,32206,clean
-POL-000284,Kathryn Rosario,73,W FLAGLER ST,,Miami,FL,33130,clean
-POL-000285,Carrie Wright,175,ADAMS ST,Suite 151,Brooklyn,NY,11201,clean
-POL-000286,Jeffrey Mills,1400,16TH ST,,Denver,CO,80202,clean
-POL-000287,Jake Campbell,71877,WELDON RD,,Lake Hopatcong,NJ,07849,outdated_address
-POL-000288,George Harper,407,SE DELAWARE AVE,,West Des Moines,IA,50021,zip_city_mismatch
-POL-000289,Maria Jones,301,S GULFVIEW BLVD,,Clearwater,FL,33767,missing_unit
-POL-000290,Samuel Brandt,665,NW 14 ST,Apt. 864,Miami,FL,33136,clean
-POL-000291,Sydney Collins,75884,OAK ST,Apt. 519,Orlando,FL,32804,outdated_address
-POL-000292,Mary Anderson,665,NW 14 ST,,Miami,FL,33136,clean
-POL-000293,Angela Hansen,54467,COLUMBINE AVE,,Boulder,CO,80302,outdated_address
-POL-000294,Erin Anderson,4,PEBBLE BEACH RD,,Hopatcong,NJ,07843,clean
-POL-000295,Theresa Osborn,84481,WABASH TRL,,Andover,NJ,07821,outdated_address
-POL-000296,Eric Bean,145,UNIVERSITY VAE,Apt. 685,Des Moines,IA,50314,misspelling
-POL-000297,Mrs. Elizabeth French DDS,1068,WELDON RD,Suite 733,Oak Ridge,NJ,07438,clean
-POL-000298,Brittany White,2114,BLUE AVE,Apt. 592,Jacksonville,FL,32209,clean
-POL-000299,Nathan Montes,2041,COLUMBINE AVE,Apt. 706,Golden,CO,80302,zip_city_mismatch
-POL-000300,Nicole Bowers,1541,BRICKELL AVE,,Miami,FL,33129,clean
-POL-000301,David Sheppard,209,5HT ST,,West Des Moines,IA,50265,misspelling
-POL-000302,Stephanie Lee,1456,LAKEVIEW RD,,Clearwater,FL,33756,clean
-POL-000303,Laura Alexander,57262,CLEVELAND ST,,Clearwater,FL,33755,outdated_address
-POL-000304,Paula Shaw,215,ADAMS ST,,Brooklyn,NY,11201,clean
-POL-000305,David Davidson,511,28TH ST,,Des Moines,IA,50312,missing_unit
-POL-000306,Dominique Hines,133,S ORANGE AVE,Suite 818,Orlando,FL,32801,clean
-POL-000307,Anna Lozano,67450,W 1ST ST,Suite 782,Jacksonville,FL,32209,outdated_address
-POL-000308,Stacey Arias,116,SE LORENZ DR,,Ankeny,IA,50021,clean
-POL-000309,James Miller,714,CLEVELADN ST,Suite 068,Clearwater,FL,33755,misspelling
-POL-000310,Fernando Garcia,89962,BOULDER ST,,Denver,CO,80211,outdated_address
-POL-000311,Ronald Horton,63,CANAL ST,Suite 220,Landing,NJ,07850,clean
-POL-000312,Bobby Scott,519,17THS T,Apt. 779,Des Moines,IA,50309,misspelling
-POL-000313,Kimberly Acosta,343,E CHURCH ST,,Jacksonville,FL,32202,missing_unit
-POL-000314,Ashley Roberts,511,28TH ST,,Des Moines,IA,50312,clean
-POL-000315,Anthony Barnes,68302,BRACKLAND ST,,Jacksonville,FL,32206,outdated_address
-POL-000316,Joyce Rodriguez,145,UNIVERSITY AVE,,Des Moines,IA,50314,missing_unit
-POL-000317,Linda Smith,665,NW 1 4ST,,Miami,FL,33136,misspelling
-POL-000318,Harry Duncan,1499,BLAKE ST,,Denver,CO,80202,missing_unit
-POL-000319,Joseph Romero,2635,JUNIPER AVE,Apt. 185,Boulder,CO,80304,clean
-POL-000320,Veronica King,1035,PAERL ST,Apt. 670,Boulder,CO,80302,misspelling
-POL-000321,Richard Cooper,1012,E 4TH AVE,,Denver,CO,80218,clean
-POL-000322,Lori Ingram,343,E CHURCH ST,,Jacksonville,FL,32202,missing_unit
-POL-000323,Robin Thompson,509,AVENUE OF THE AMERICAS,Suite 205,New York,NY,10011,clean
-POL-000324,Ricardo Ellis,1745,BOULDER ST,Suite 722,Denver,CO,80211,clean
-POL-000325,Andrew Gonzalez,407,3RD AVE,,New York,NY,10016,clean
-POL-000326,Robert Kennedy,1940,BLAKE ST,Apt. 548,Denver,CO,80202,clean
-POL-000327,Amber Rios,88870,N ORANGE AVE,Apt. 345,Orlando,FL,32801,outdated_address
-POL-000328,Robert Kim,1159,NW S1T PL,,Miami,FL,33136,misspelling
-POL-000329,Jeremiah Huber,55,SE 6TH ST,,Miami,FL,33131,missing_unit
-POL-000330,Cody Holt,110,WELLESLEY TRL,,Hopatcong,NJ,07843,clean
-POL-000331,Robert Adams,1159,NW 1ST PL,,Miami,FL,33136,clean
-POL-000332,Samantha Gardner,175,COLUMBIA HTS,Apt. 616,Brooklyn,NY,11201,clean
-POL-000333,Bobby Guerrero,6009,CRESTON AVE,,Des Moines,IA,50321,missing_unit
-POL-000334,Lance Simmons,55458,NW 11TH ST,,Miami,FL,33136,outdated_address
-POL-000335,Heather Williams,63,CANAL ST,,Landing,NJ,07850,missing_unit
-POL-000336,Heather Bolton,3705,CANFIELD ST,,Boulder,CO,80301,clean
-POL-000337,William Gould,509,AVENUE OF THEA MERICAS,,New York,NY,10011,misspelling
-POL-000338,Meghan Cisneros,36,E JACKOSN ST,Apt. 658,Orlando,FL,32801,misspelling
-POL-000339,Lawrence Harrington,1100,13TH ST,,Boulder,CO,80302,missing_unit
-POL-000340,Austin Osborne,747,NW 13TH AVE,,Miami,FL,33125,clean
-POL-000341,James Bradley,90749,BELL AVE,,Hopatcong,NJ,07843,outdated_address
-POL-000342,Billy Taylor,3327,NE RENAISSANCE DR,Apt. 755,Ankeny,IA,50021,clean
-POL-000343,Brian Fitzgerald,3250,ONEAL CIR,Suite 654,Boulder,CO,80301,clean
-POL-000344,Reginald Padilla,61795,JUNIPER AVE,Suite 868,Boulder,CO,80304,outdated_address
-POL-000345,Logan Benson,900,OAK ST,,Plant City,FL,32804,zip_city_mismatch
-POL-000346,Jodi Roach,2,BILLINGS RD,Suite 312,Hopatcong,NJ,07843,clean
-POL-000347,Krista Roberts,39,LAUREL TRL,Suite 155,Wharton,NJ,07843,zip_city_mismatch
-POL-000348,Christopher Mckinney,1505,S MCDONALD ST,,Plant City,FL,33563,clean
-POL-000349,Carrie Ward,414,N SHANNON ESTATES CT,,Plant City,FL,33563,clean
-POL-000350,William Conner,1260,GLENARM PL,,Denver,CO,80204,clean
+policy_id,policyholder_name,street_number,street_name,unit,city,state,zip,injected_error,stated_property_type
+POL-000001,Noah Rhodes,3446,IRIS CT,Apt. 043,Boulder,CO,80304,clean,Single Family Residence
+POL-000002,Angie Henderson,172,DARTMOUTH TRL,,Hopatcong,NJ,07843,clean,Vacant Land
+POL-000003,Daniel Wagner,346,DPUONT AVE,,Hopatcong,NJ,07843,misspelling,Single Family Residence
+POL-000004,Cristian Santos,350,NW GEORGETOWN BLVD,,Ankeny,IA,50023,clean,Condominium / Townhome
+POL-000005,Connie Lawrence,2635,JUNIPER AVE,,Boulder,CO,80304,missing_unit,Multi-Family / Rental
+POL-000006,Abigail Shaffer,122,ASHLAND PL,,Brooklyn,NY,11201,clean,Single Family Residence
+POL-000007,Phillip Garcia,516,E GRAND AVE,,Des Moines,IA,50309,missing_unit,Commercial
+POL-000008,Renee Blair,524,NW 11TH ST,Suite 155,Orlando,FL,33136,zip_city_mismatch,Vacant Land
+POL-000009,Mark Mcclure,2524,CHAMAP ST,Apt. 618,Denver,CO,80205,misspelling,Single Family Residence
+POL-000010,Darren Roberts,1150,NW 8TH STREET RD,,Miami,FL,33136,missing_unit,Multi-Family / Rental
+POL-000011,David Garcia,1717,N BAYSHORE DR,,Miami,FL,33132,clean,Single Family Residence
+POL-000012,Mark Diaz,811,CLEVELAND ST,,Clearwater,FL,33755,clean,Vacant Land
+POL-000013,Melinda Jones,73922,WABASH TRL,Suite 534,Andover,NJ,07821,outdated_address,Single Family Residence
+POL-000014,Devin Schaefer,239,SW 9TH ST,,Miami,FL,33130,missing_unit,Commercial
+POL-000015,Renee Morales,3250,ONEAL CIR,Apt. 503,Boulder,CO,80301,clean,Single Family Residence
+POL-000016,Jonathan Wilkerson,1831,BRACKLAND ST,Apt. 395,Miami,FL,32206,zip_city_mismatch,Multi-Family / Rental
+POL-000017,Brenda Taylor,407,3RD AVE,,New York,NY,10016,missing_unit,Single Family Residence
+POL-000018,Kimberly Burgess,3104,MONCRIFE RD,,Jacksonville,FL,32209,misspelling,Single Family Residence
+POL-000019,Zachary Hicks,728,SE CREEKVIEW DR,Suite 965,Ankeny,IA,50021,clean,Single Family Residence
+POL-000020,Rebecca Henderson,2114,BLUE AVE,Apt. 012,Jacksonville,FL,32209,clean,Single Family Residence
+POL-000021,James Ferrell,2500,JACKSON ST,,Golden,CO,80401,clean,Single Family Residence
+POL-000022,Tricia Valencia,221,TURNRE ST,,Clearwater,FL,33756,misspelling,Single Family Residence
+POL-000023,Nathan Maldonado,85,FRED L MAXWELL BLVD,,Orlando,FL,32805,missing_unit,Single Family Residence
+POL-000024,Debra Davidson,970,AUROAR AVE,,Boulder,CO,80302,misspelling,Multi-Family / Rental
+POL-000025,Jeffrey Chavez,1203,MURPHY ST,,Des Moines,IA,50309,clean,Vacant Land
+POL-000026,Sherri Baker,189,S ORANGE VAE,,Orlando,FL,32801,misspelling,Condominium / Townhome
+POL-000027,Cassandra Gaines,407,3RD VAE,,New York,NY,10016,misspelling,Single Family Residence
+POL-000028,Elizabeth Fowler,1315,S ORANGE AVE,,Orlando,FL,32806,clean,Single Family Residence
+POL-000029,Brittany Farmer,1136,NE 7TH LN,,Ankeny,IA,50021,clean,Single Family Residence
+POL-000030,Timothy Koch,1940,BLAKE ST,Apt. 957,Denver,CO,80202,clean,Multi-Family / Rental
+POL-000031,Theresa Miller,1068,WELDON RD,,Oak Ridge,NJ,07438,missing_unit,Commercial
+POL-000032,Mr. Philip Cannon,116,SE LORENZ DR,,Ankeny,IA,50021,clean,Single Family Residence
+POL-000033,John Pierce,518,LAKESIDE AVE,,Andover,NJ,07821,clean,Vacant Land
+POL-000034,Tanya Campos,3416,MONCRIEF RD,,Jacksonville,FL,32209,missing_unit,Multi-Family / Rental
+POL-000035,Joseph Martinez,54588,POINT PLEASANT RD,Apt. 465,Hopatcong,NJ,07843,outdated_address,Commercial
+POL-000036,George Chapman,206,NE DELAWRAE AVE,,Ankeny,IA,50021,misspelling,Commercial
+POL-000037,Mark Perez,8,W SHAWNEE TRL,Apt. 930,Wharton,NJ,07885,clean,Single Family Residence
+POL-000038,Shannon Jones,1125,ELDRIDGE ST,,Clearwater,FL,33755,clean,Multi-Family / Rental
+POL-000039,Miranda Khan,722,WASHINGTON AVE,Apt. 473,Golden,CO,80401,clean,Multi-Family / Rental
+POL-000040,Dana Kennedy,66862,SE 10TH ST,,Des Moines,IA,50309,outdated_address,Single Family Residence
+POL-000041,Heather Jenkins,524,NW 11TH ST,Suite 311,Miami,FL,33136,clean,Multi-Family / Rental
+POL-000042,Rebecca Rodriguez,544,N BUMBY AVE,Apt. 106,Orlando,FL,32803,clean,Single Family Residence
+POL-000043,Joshua Taylor,709,EAYS AVE,,Orlando,FL,32805,misspelling,Single Family Residence
+POL-000044,Angela Morton,209,5THS T,Apt. 473,West Des Moines,IA,50265,misspelling,Multi-Family / Rental
+POL-000045,Annette Pearson,1831,BRACKLAND ST,,Jacksonville,FL,32206,clean,Single Family Residence
+POL-000046,Alexis Davis,290,MOUNT ARLINGTON BLVD,,Oak Ridge,NJ,07850,zip_city_mismatch,Single Family Residence
+POL-000047,Dr. Steven Martin,826,CHEYENNE ST,Apt. 267,Golden,CO,80401,clean,Multi-Family / Rental
+POL-000048,James House,1400,N ORANGE BLOSSOM TRL,,Clearwater,FL,32804,zip_city_mismatch,Single Family Residence
+POL-000049,Dominique Horton,301,S GLUFVIEW BLVD,,Clearwater,FL,33767,misspelling,Single Family Residence
+POL-000050,Rachel Stanley,1351,W 5THS T,,Jacksonville,FL,32209,misspelling,Single Family Residence
+POL-000051,Mr. Daniel Brown,2041,COLUMBINE AVE,,Boulder,CO,80302,clean,Commercial
+POL-000052,Amy Edwards,1407,WASHINGTON AVE,,Golden,CO,80401,missing_unit,Single Family Residence
+POL-000053,John Calhoun,1125,ELDRIDGE ST,,Clearwater,FL,33755,clean,Single Family Residence
+POL-000054,Amy Romero,1315,S ORANGE AVE,,Orlando,FL,32806,missing_unit,Condominium / Townhome
+POL-000055,Cynthia Wilson,145,UNIVERSITY AVE,Apt. 191,Des Moines,IA,50314,clean,Condominium / Townhome
+POL-000056,Danielle Wheeler,50,W 9TH ST,,New York,NY,10011,clean,Single Family Residence
+POL-000057,Taylor Harris,1447,W 1STS T,Apt. 699,Jacksonville,FL,32209,misspelling,Single Family Residence
+POL-000058,Matthew Bryant,3104,MONCRIEF RD,Suite 346,Jacksonville,FL,32209,clean,Single Family Residence
+POL-000059,Dr. Angel Lewis MD,116,SE LORENZ DR,Apt. 079,Ankeny,IA,50021,clean,Single Family Residence
+POL-000060,Jeffrey Daniels,520,D ST,Suite 135,Clearwater,FL,33756,misspelling,Vacant Land
+POL-000061,Kristen Huynh,108,ALEXANDER WOODS DR,Suite 980,Plant City,FL,33563,clean,Single Family Residence
+POL-000062,Natalie Moore,1109,W 13THA VE,Apt. 241,Denver,CO,80204,misspelling,Multi-Family / Rental
+POL-000063,Mark Baker,849,S ANKENY BLVD,,Ankeny,IA,50023,missing_unit,Multi-Family / Rental
+POL-000064,Sandra Williams,3104,MONCRIEF RD,Suite 401,Orlando,FL,32209,zip_city_mismatch,Single Family Residence
+POL-000065,Carlos Whitney,1407,WASHINGTONA VE,,Golden,CO,80401,misspelling,Commercial
+POL-000066,Ashley Landry,13,WABASH TRL,,Andover,NJ,07821,missing_unit,Single Family Residence
+POL-000067,Brittany Johnson,1543,SW 7TH ST,,Miami,FL,33135,clean,Single Family Residence
+POL-000068,Juan Jordan,500,WELDON RD,,Lake Hopatcong,NJ,07849,clean,Single Family Residence
+POL-000069,Jacob Fitzpatrick,37,W 12T HST,,New York,NY,10011,misspelling,Single Family Residence
+POL-000070,Heather Castro,1150,OAKDALE PL,Apt. 533,Boulder,CO,80304,clean,Single Family Residence
+POL-000071,Valerie Brady,147,BELL AVE,,Hopatcong,NJ,07843,missing_unit,Single Family Residence
+POL-000072,Cynthia Martin,1310,CLEVELAND ST,,Clearwater,FL,33755,missing_unit,Multi-Family / Rental
+POL-000073,Cassandra Gutierrez,2114,BLUE AVE,,Jacksonville,FL,32209,missing_unit,Commercial
+POL-000074,Richard Rodriguez,68495,N ORANGE AVE,Apt. 563,Orlando,FL,32801,outdated_address,Single Family Residence
+POL-000075,Shannon Walker,1035,NW 11TH CT,,Miami,FL,33136,clean,Single Family Residence
+POL-000076,Julia Torres,1006,HOMESTAKE DR,,Golden,CO,80401,clean,Multi-Family / Rental
+POL-000077,Donald Jones,518,LAKESIDE AVE,Apt. 303,Andover,NJ,07821,clean,Commercial
+POL-000078,Sarah Rivera,209,E 1ST ST,Suite 586,Windsor Heights,IA,50021,zip_city_mismatch,Single Family Residence
+POL-000079,Victoria Johnson,4,PEBBLE BEACH RD,Apt. 142,Andover,NJ,07843,zip_city_mismatch,Vacant Land
+POL-000080,Haley Hartman,1310,CLEVELAND ST,,Clearwater,FL,33755,clean,Single Family Residence
+POL-000081,William Wilson,94002,NE RENAISSANCE DR,,Ankeny,IA,50021,outdated_address,Condominium / Townhome
+POL-000082,Cheryl Williams,1456,LAKEVIEW RD,,Clearwater,FL,33756,clean,Vacant Land
+POL-000083,Teresa Mclaughlin,2502,N WILDER RD,Suite 088,Plant City,FL,33565,clean,Single Family Residence
+POL-000084,Jeffrey Rush,2502,N WILDER RD,,Plant City,FL,33565,clean,Vacant Land
+POL-000085,Elizabeth Parker,1336,CLEVELAND ST,Suite 951,Jacksonville,FL,32209,clean,Single Family Residence
+POL-000086,James Phillips,2180,FOREST CIR,,Orlando,FL,32803,missing_unit,Vacant Land
+POL-000087,Stephanie Gilbert,519,17TH ST,Apt. 366,Des Moines,IA,50309,clean,Vacant Land
+POL-000088,Daniel Floyd,1375,S FORT HARRISON AVE,,Clearwater,FL,33756,missing_unit,Single Family Residence
+POL-000089,Erica Ramos,784,E MICHIGAN ST,,Orlando,FL,32806,missing_unit,Multi-Family / Rental
+POL-000090,Kayla Leon,1507,W REYNOLDS ST,,Plant City,FL,33563,clean,Single Family Residence
+POL-000091,Lisa Davis,133,S ORANGE AVE,Apt. 148,Orlando,FL,32801,clean,Single Family Residence
+POL-000092,Angel Riggs,2114,BLUE AVE,Apt. 433,Jacksonville,FL,32209,clean,Single Family Residence
+POL-000093,Michael Snyder,43,E 10TH ST,Apt. 769,New York,NY,10003,clean,Single Family Residence
+POL-000094,Matthew Smith,665,NW 14 ST,,Miami,FL,33136,missing_unit,Single Family Residence
+POL-000095,Melissa Marshall,707,19TH ST,Apt. 632,Des Moines,IA,50314,clean,Single Family Residence
+POL-000096,Sylvia Martinez,860,JEFFERSON COUNTY PKWY,,Golden,CO,80401,clean,Single Family Residence
+POL-000097,Tiffany Vance,119,COLUMBUS AVE,Apt. 788,Des Moines,IA,50315,clean,Single Family Residence
+POL-000098,Michelle Wagner,3104,MONCREIF RD,,Jacksonville,FL,32209,misspelling,Single Family Residence
+POL-000099,Kimberly Merritt,71901,13TH ST,,Boulder,CO,80304,outdated_address,Multi-Family / Rental
+POL-000100,Karen Green,611,DRUID RD E,,Clearwater,FL,33756,clean,Multi-Family / Rental
+POL-000101,Mark Cannon,55,SOMERSET ST,,Jacksonville,FL,33767,zip_city_mismatch,Single Family Residence
+POL-000102,Lori Hill,1310,CLEVELAND ST,,Clearwater,FL,33755,clean,Multi-Family / Rental
+POL-000103,Dustin Nelson,1203,MURPHY ST,,Des Moines,IA,50309,clean,Single Family Residence
+POL-000104,Joshua Taylor,247,HENRY ST,,New York,NY,10002,clean,Single Family Residence
+POL-000105,Jason Daniels,11,DEER TRL,Apt. 623,Hopatcong,NJ,07843,clean,Multi-Family / Rental
+POL-000106,Daniel Fisher,138,LAKESIDE BLVD,,Landing,NJ,07850,clean,Multi-Family / Rental
+POL-000107,Lauren Dominguez,1375,S OFRT HARRISON AVE,,Clearwater,FL,33756,misspelling,Single Family Residence
+POL-000108,Pamela James,6571,UNIVERSITY AVE,,Windsor Heights,IA,50324,clean,Single Family Residence
+POL-000109,Guy Molina,975,N LINCOLN ST,,Denver,CO,80203,clean,Single Family Residence
+POL-000110,Katherine Nelson,1507,W REYNOLDS ST,Suite 889,Plant City,FL,33563,clean,Single Family Residence
+POL-000111,Mr. Michael Yates,1407,WASHINGTON AVE,,Golden,CO,80401,clean,Condominium / Townhome
+POL-000112,Susan Vargas,221,TURNER ST,Apt. 729,Clearwater,FL,33756,clean,Single Family Residence
+POL-000113,Angela Patterson,85,FRED L MAXWELL BLVD,,Orlando,FL,32805,clean,Single Family Residence
+POL-000114,Catherine Green,39,LAUREL TRL,,Hopatcong,NJ,07843,clean,Commercial
+POL-000115,Shawn Ramirez,1109,W 13TH AVE,Suite 375,Denver,CO,80204,clean,Single Family Residence
+POL-000116,Jennifer Conley,218,BLOOMFIELD ST,,Hoboken,NY,07030,clean,Vacant Land
+POL-000117,Paul Williams,405,SW 3RD ST,,Ankeny,IA,50023,missing_unit,Vacant Land
+POL-000118,Tiffany Gonzalez,945,19TH ST,,Des Moines,IA,50314,missing_unit,Multi-Family / Rental
+POL-000119,Christian Martinez,66086,3RD AVE,,New York,NY,10016,outdated_address,Single Family Residence
+POL-000120,Kristy Robinson,128,LAKESIDE BLVD,,Hopatcong,NJ,07843,missing_unit,Single Family Residence
+POL-000121,Nicole Wilson,2410,SW WHITE BIRCH DR,,Ankeny,IA,50023,missing_unit,Single Family Residence
+POL-000122,Traci Rodriguez,1068,WELDNO RD,,Oak Ridge,NJ,07438,misspelling,Single Family Residence
+POL-000123,Eric Byrd,1203,MURPHY ST,,Des Moines,IA,50309,missing_unit,Single Family Residence
+POL-000124,Jennifer Espinoza,20,N MOORE ST,,New York,NY,10013,clean,Vacant Land
+POL-000125,Michael Burton,73379,CLINTON ST,,Brooklyn,NY,11231,outdated_address,Single Family Residence
+POL-000126,Raymond Jefferson,2104,GRAYSON WOODS CT,,Plant City,FL,33563,clean,Single Family Residence
+POL-000127,Barbara Riggs,2500,JACKSON ST,,Golden,CO,80401,clean,Vacant Land
+POL-000128,Andrea Holland,52111,5TH ST,Apt. 586,West Des Moines,IA,50265,outdated_address,Single Family Residence
+POL-000129,Jason Henry,62256,28TH ST,,Boulder,CO,80303,outdated_address,Vacant Land
+POL-000130,Jack Snow,4,PEBBLE BEACH RD,,Hopatcong,NJ,07843,clean,Commercial
+POL-000131,Christian Thompson,65,BANNOC KST,,Denver,CO,80223,misspelling,Single Family Residence
+POL-000132,Roger Vargas,411,LAUREL ST,,Des Moines,IA,50314,missing_unit,Single Family Residence
+POL-000133,Dana Marshall,145,UNIVERSITY AVE,Suite 314,Des Moines,IA,50314,clean,Single Family Residence
+POL-000134,Jamie Johnson,56774,WASHINGTON AVE,,Golden,CO,80401,outdated_address,Single Family Residence
+POL-000135,Catherine Lewis,2500,JACKSON ST,,Golden,CO,80401,clean,Single Family Residence
+POL-000136,Desiree Smith,2041,COLUMBINE AVE,Suite 549,Boulder,CO,80302,clean,Single Family Residence
+POL-000137,Angela Cortez,133,S ORANGE AVE,,Orlando,FL,32801,missing_unit,Single Family Residence
+POL-000138,Katherine Mcguire,58564,WELDON RD,Suite 837,Oak Ridge,NJ,07438,outdated_address,Multi-Family / Rental
+POL-000139,Daniel Holt,610,LAKEVIEW RD,,Clearwater,FL,33756,missing_unit,Single Family Residence
+POL-000140,Kevin Kennedy,1012,E 4TH AVE,,Denver,CO,80218,clean,Single Family Residence
+POL-000141,Jesse Parker,200,CONGRESS ST,Suite 685,Hoboken,NY,11201,zip_city_mismatch,Commercial
+POL-000142,Nathan Stewart,810,W 2ND AVE,,Denver,CO,80223,clean,Single Family Residence
+POL-000143,Kevin Wolf,518,PARKVIEW CT,Apt. 337,Golden,CO,80403,clean,Vacant Land
+POL-000144,Christopher Smith,1831,BRACKLAND ST,Suite 134,Jacksonville,FL,32206,clean,Vacant Land
+POL-000145,Denise Mccann,1112,E 4TH AVE,,Denver,CO,80218,clean,Multi-Family / Rental
+POL-000146,Laura Harrison,75173,N ORANGE AVE,Suite 271,Orlando,FL,32801,outdated_address,Single Family Residence
+POL-000147,Scott Wilson,3250,ONEAL CIR,Suite 520,Boulder,CO,80301,clean,Vacant Land
+POL-000148,John Ray,147,BELL AVE,,Oak Ridge,NJ,07843,zip_city_mismatch,Condominium / Townhome
+POL-000149,Angela Wright,707,19TH ST,Apt. 229,Des Moines,IA,50314,clean,Multi-Family / Rental
+POL-000150,Jennifer Carlson,1260,GLENARM PL,,Denver,CO,80204,clean,Single Family Residence
+POL-000151,Patricia James,707,19TH ST,,Des Moines,IA,50314,clean,Single Family Residence
+POL-000152,Elizabeth Chapman,1831,BRACKLAN DST,,Jacksonville,FL,32206,misspelling,Single Family Residence
+POL-000153,Keith Brown,411,LAUREL ST,,Des Moines,IA,50314,clean,Single Family Residence
+POL-000154,Annette Farmer,326,HOLIDAY CIR,,West Des Moines,IA,50265,missing_unit,Single Family Residence
+POL-000155,Juan Moore,504,GRAND ST,,New York,NY,10002,missing_unit,Multi-Family / Rental
+POL-000156,Michael Harrison,1510,TALLEYRAND AVE,,Jacksonville,FL,32206,clean,Single Family Residence
+POL-000157,Dwayne Campbell,67250,S FORT HARRISON AVE,,Clearwater,FL,33756,outdated_address,Multi-Family / Rental
+POL-000158,Andrea Hall,54380,ONEAL CIR,,Boulder,CO,80301,outdated_address,Single Family Residence
+POL-000159,Rick Lawrence,221,TURNER ST,,Clearwater,FL,33756,missing_unit,Multi-Family / Rental
+POL-000160,Christina Wilson,1501,NW NORTH RIVER DR,,Miami,FL,33125,clean,Single Family Residence
+POL-000161,Chase Baker,1025,HOMESTAKE DR,,Denver,CO,80401,zip_city_mismatch,Single Family Residence
+POL-000162,Linda Holloway,18TH,W 18TH ST,Apt. 102,Jacksonville,FL,32209,clean,Single Family Residence
+POL-000163,Jessica Harrison,1025,HOMESTAKE DR,,Golden,CO,80401,clean,Single Family Residence
+POL-000164,James Nelson,610,LAKEVIEW RD,,Clearwater,FL,33756,missing_unit,Multi-Family / Rental
+POL-000165,Jessica George,215,ADAMS ST,,Brooklyn,NY,11201,missing_unit,Single Family Residence
+POL-000166,Darryl Craig,611,DRUID RD E,Suite 594,Orlando,FL,33756,zip_city_mismatch,Single Family Residence
+POL-000167,Casey Stone,206,N EDELAWARE AVE,Apt. 490,Ankeny,IA,50021,misspelling,Multi-Family / Rental
+POL-000168,Donald Shea,800,28TH ST,,Boulder,CO,80303,clean,Condominium / Townhome
+POL-000169,Robert Costa,470,RIVER STYX RD,,Hopatcong,NJ,07843,clean,Single Family Residence
+POL-000170,Brian Martin,616,SE 10TH ST,Suite 565,Des Moines,IA,50309,clean,Single Family Residence
+POL-000171,Krista Gibson,324,7T HST,Suite 746,West Des Moines,IA,50265,misspelling,Single Family Residence
+POL-000172,Frank Cordova,975,N LINCOLN ST,,Denver,CO,80203,missing_unit,Vacant Land
+POL-000173,Anthony Stone,25TH,W 25TH ST,,Jacksonville,FL,32209,missing_unit,Multi-Family / Rental
+POL-000174,Kathleen Ramos,414,N SHANNON ESTATES CT,,Plant City,FL,33563,clean,Single Family Residence
+POL-000175,Dwayne Gilmore,849,S ANKENY BLVD,Apt. 348,Ankeny,IA,50023,clean,Single Family Residence
+POL-000176,Mr. Mark Lloyd,1400,16TH ST,,Boulder,CO,80202,zip_city_mismatch,Multi-Family / Rental
+POL-000177,Anna Gay,1006,HOMESTAKE DR,Apt. 480,Golden,CO,80401,clean,Multi-Family / Rental
+POL-000178,Julia Wilson,2114,BLUE AVE,,Jacksonville,FL,32209,missing_unit,Single Family Residence
+POL-000179,Jennifer Olson,95306,LAKESIDE BLVD,Apt. 748,Hopatcong,NJ,07843,outdated_address,Multi-Family / Rental
+POL-000180,Connor Greene,2306,MONCRIEF RD,,Jacksonville,FL,32209,missing_unit,Single Family Residence
+POL-000181,Richard Adams,145,UNIVERSITY AVE,,Des Moines,IA,50314,missing_unit,Single Family Residence
+POL-000182,Nicholas Monroe,105,E 17TH ST,,New York,NY,10003,clean,Commercial
+POL-000183,Mr. Phillip Bennett,516,E GRAND AVE,,Des Moines,IA,50309,missing_unit,Single Family Residence
+POL-000184,Sheila Pollard,1336,CLEEVLAND ST,,Jacksonville,FL,32209,misspelling,Condominium / Townhome
+POL-000185,James Chase,1109,W 13TH AVE,,Denver,CO,80204,clean,Single Family Residence
+POL-000186,Evan Kennedy,33,JEFFERSON TRL,,Oak Ridge,NJ,07843,zip_city_mismatch,Commercial
+POL-000187,Jane Mcneil,90328,NE 7TH LN,,Ankeny,IA,50021,outdated_address,Single Family Residence
+POL-000188,Marissa Hernandez,119,COLUMBUS AVE,,Des Moines,IA,50315,clean,Single Family Residence
+POL-000189,Beth Sanford,811,CLEVELAND ST,,Clearwater,FL,33755,clean,Multi-Family / Rental
+POL-000190,Brian Kirk,400,W COLONIAL DR,,Orlando,FL,32804,clean,Single Family Residence
+POL-000191,Thomas Smith,888,N ORANGE AVE,,Orlando,FL,32801,missing_unit,Single Family Residence
+POL-000192,Seth Booker,511,28TH ST,,Des Moines,IA,50312,missing_unit,Multi-Family / Rental
+POL-000193,Richard Baker,1020,15TH ST,,Denver,CO,80202,clean,Single Family Residence
+POL-000194,Eugene Higgins,1704,WALDEN VILLAGE CT,Suite 158,Plant City,FL,33566,clean,Vacant Land
+POL-000195,Shelia Johnson,96048,SW 3RD AVE,,Miami,FL,33129,outdated_address,Commercial
+POL-000196,Mark Mccall,218,BLOOMFIELD ST,,Hoboken,NY,07030,misspelling,Single Family Residence
+POL-000197,Michele Garcia,30,SAMANA DR,Apt. 161,Miami,FL,33133,clean,Vacant Land
+POL-000198,Elijah Johnson,225,ADAMS ST,,Brooklyn,NY,11201,clean,Single Family Residence
+POL-000199,Charles Schmidt,2502,N WILDER RD,Suite 045,Plant City,FL,33565,clean,Multi-Family / Rental
+POL-000200,Rebecca Jackson,728,SE CREEKVIEW DR,,Ankeny,IA,50021,clean,Single Family Residence
+POL-000201,Kathleen Aguilar,405,SW 3RD ST,,Ankeny,IA,50023,missing_unit,Vacant Land
+POL-000202,Adam Ballard,209,5TH ST,Apt. 747,West Des Moines,IA,50265,clean,Multi-Family / Rental
+POL-000203,Megan Moore,1501,S FORT HARRISON AVE,,Jacksonville,FL,33756,zip_city_mismatch,Multi-Family / Rental
+POL-000204,Jessica Wright,138,LAKESIDE BLVD,Suite 594,Landing,NJ,07850,clean,Single Family Residence
+POL-000205,Christina Cruz,157,STANHOPE SPARTA RD,,Andover,NJ,07821,missing_unit,Commercial
+POL-000206,Mr. Kenneth Andrews,2306,MONCRIEF RD,,Jacksonville,FL,32209,missing_unit,Vacant Land
+POL-000207,Sean Osborne,130,5TH ST,Suite 064,West Des Moines,IA,50265,clean,Single Family Residence
+POL-000208,Susan Mcgee,1112,E 4TH AVE,,Denver,CO,80218,clean,Vacant Land
+POL-000209,Stephanie Parsons,1510,TALLEYRAND AVE,,Jacksonville,FL,32206,clean,Single Family Residence
+POL-000210,Robert Robinson,43,E 10TH ST,,New York,NY,10003,clean,Single Family Residence
+POL-000211,David Campos,1912,BRACKLAND ST,,Jacksonville,FL,32206,clean,Multi-Family / Rental
+POL-000212,Melanie Taylor,71877,WELDON RD,,Lake Hopatcong,NJ,07849,outdated_address,Multi-Family / Rental
+POL-000213,Jacob Anderson,209,E 1ST ST,Apt. 047,Ankeny,IA,50021,clean,Vacant Land
+POL-000214,Richard Walter,800,28TH ST,Suite 562,Golden,CO,80303,zip_city_mismatch,Single Family Residence
+POL-000215,Jonathan Nelson,1025,HOMESTAKE DR,,Golden,CO,80401,clean,Single Family Residence
+POL-000216,Thomas Raymond,1150,OAKDALE PL,,Boulder,CO,80304,clean,Single Family Residence
+POL-000217,Brenda Levy,2180,FOREST CIR,Suite 517,Orlando,FL,32803,clean,Single Family Residence
+POL-000218,Misty Whitney,84481,WABASH TRL,,Andover,NJ,07821,outdated_address,Commercial
+POL-000219,Regina Diaz,92947,E JACKSON ST,,Orlando,FL,32801,outdated_address,Commercial
+POL-000220,Alexis Herrera,128,LAKESIDE BLVD,,Hopatcong,NJ,07843,clean,Single Family Residence
+POL-000221,Mark Watson,2312,14T HST,Suite 549,Boulder,CO,80304,misspelling,Vacant Land
+POL-000222,Kristina Herman,206,NE DELAWARE AVE,Apt. 709,Windsor Heights,IA,50021,zip_city_mismatch,Vacant Land
+POL-000223,Arthur Colon,209,5HT ST,,West Des Moines,IA,50265,misspelling,Single Family Residence
+POL-000224,Elizabeth Ortiz,2701,CANYON BLVD,,Boulder,CO,80302,clean,Condominium / Townhome
+POL-000225,Tracy Torres,707,19TH ST,,Des Moines,IA,50314,clean,Condominium / Townhome
+POL-000226,Brent Clay Jr.,13,WABASH TRL,,Andover,NJ,07821,clean,Commercial
+POL-000227,Molly Mcclure,900,OA KST,Suite 586,Orlando,FL,32804,misspelling,Single Family Residence
+POL-000228,Diana Vaughn,94922,WELDON RD,Apt. 796,Lake Hopatcong,NJ,07849,outdated_address,Condominium / Townhome
+POL-000229,Ariana Jennings,222,SPARTA MT RD,Apt. 773,Oak Ridge,NJ,07438,clean,Single Family Residence
+POL-000230,Bryan Charles,970,AURORA AVE,Suite 064,Boulder,CO,80302,clean,Single Family Residence
+POL-000231,Matthew May,94113,LAUREL ST,,Des Moines,IA,50314,outdated_address,Single Family Residence
+POL-000232,Alison Buchanan,509,AVENUE OF THE AMERICAS,,New York,NY,10011,missing_unit,Single Family Residence
+POL-000233,Cameron Cunningham,2007,S COUNTRYSIDE CIR,,Miami,FL,32804,zip_city_mismatch,Multi-Family / Rental
+POL-000234,Phillip Clark,70315,E GRAND AVE,,Des Moines,IA,50309,outdated_address,Single Family Residence
+POL-000235,Sergio Murphy,665,NW 1 4ST,,Miami,FL,33136,misspelling,Multi-Family / Rental
+POL-000236,Brianna Anderson,810,W 2ND AVE,Apt. 904,Denver,CO,80223,clean,Single Family Residence
+POL-000237,Christopher Guerrero,175,COLUMBIA HTS,,Brooklyn,NY,11201,missing_unit,Multi-Family / Rental
+POL-000238,Adrian Tyler,2701,CANYON BLVD,,Boulder,CO,80302,clean,Commercial
+POL-000239,Franklin Thompson,1025,HOMESTAKE DR,,Golden,CO,80401,clean,Single Family Residence
+POL-000240,Arthur West,504,GRAND ST,Apt. 268,New York,NY,10002,clean,Single Family Residence
+POL-000241,Kevin Hayes,301,S GULFVIEW BLVD,,Clearwater,FL,33767,clean,Condominium / Townhome
+POL-000242,Luis Acosta,1035,PAERL ST,,Boulder,CO,80302,misspelling,Commercial
+POL-000243,Dr. Jessica Rodriguez DDS,3250,ONEAL CIR,Suite 700,Boulder,CO,80301,clean,Single Family Residence
+POL-000244,Steven Morris,1159,NW S1T PL,,Miami,FL,33136,misspelling,Single Family Residence
+POL-000245,Lauren Joseph,414,N SHANNON ESATTES CT,Apt. 124,Plant City,FL,33563,misspelling,Single Family Residence
+POL-000246,Kyle Phillips,1625,JESSIE ST,,Jacksonville,FL,32206,missing_unit,Vacant Land
+POL-000247,Jessica Mcguire,6009,CRESTON AVE,,Des Moines,IA,50321,missing_unit,Vacant Land
+POL-000248,Darryl Morgan,509,AVENUE OF THE AMERICAS,Apt. 836,New York,NY,10011,clean,Single Family Residence
+POL-000249,Jason Davis,1375,S FORT HARRISON AVE,,Clearwater,FL,33756,clean,Commercial
+POL-000250,Maurice Brooks,509,AVENUE OF THEA MERICAS,,New York,NY,10011,misspelling,Single Family Residence
+POL-000251,Anna Davis,1602,NW PRAIRIE LAKES DR,Apt. 711,Windsor Heights,IA,50023,zip_city_mismatch,Multi-Family / Rental
+POL-000252,Kristina Rivera,2960,INCA ST,Suite 280,Denver,CO,80202,clean,Single Family Residence
+POL-000253,Michelle Schmitt,1100,13T HST,Apt. 656,Boulder,CO,80302,misspelling,Commercial
+POL-000254,Heather Lane,221,TURNER ST,,Clearwater,FL,33756,clean,Single Family Residence
+POL-000255,Hayley Hawkins,61795,JUNIPER AVE,Apt. 273,Boulder,CO,80304,outdated_address,Single Family Residence
+POL-000256,Sarah Villegas,58549,FOREST CIR,Apt. 493,Orlando,FL,32803,outdated_address,Single Family Residence
+POL-000257,Michael Parker,95542,NW PRAIRIE LAKES DR,Apt. 940,Ankeny,IA,50023,outdated_address,Commercial
+POL-000258,Aaron Kane,99445,28TH ST,,Boulder,CO,80303,outdated_address,Condominium / Townhome
+POL-000259,Jennifer Thomas,414,N SHANNON ESTATES CT,,Plant City,FL,33563,clean,Multi-Family / Rental
+POL-000260,Jesse Moore,1816,TYLER ST,Apt. 183,Plant City,FL,32209,zip_city_mismatch,Single Family Residence
+POL-000261,Frederick Pugh,1456,LAKEVIWE RD,,Clearwater,FL,33756,misspelling,Single Family Residence
+POL-000262,Amber Miller,3250,ONEAL CIR,Apt. 022,Denver,CO,80301,zip_city_mismatch,Commercial
+POL-000263,Jeff Lawson,175,ADAMS ST,,Brooklyn,NY,11201,clean,Multi-Family / Rental
+POL-000264,Daniel Hunt,1109,W 1T3H AVE,,Denver,CO,80204,misspelling,Single Family Residence
+POL-000265,Brian Gregory,4,PEBBLE BEACH RD,,Hopatcong,NJ,07843,missing_unit,Vacant Land
+POL-000266,William Brown,407,SE DELAWARE AVE,,Ankeny,IA,50021,missing_unit,Vacant Land
+POL-000267,Tony Saunders,2625,SW 3RD AVE,,Miami,FL,33129,clean,Multi-Family / Rental
+POL-000268,Donna Wilson,1510,TALELYRAND AVE,,Jacksonville,FL,32206,misspelling,Single Family Residence
+POL-000269,Michael Mason,504,GRAND ST,Suite 622,New York,NY,10002,clean,Single Family Residence
+POL-000270,Joe Miller,36,E JACKSON ST,Suite 160,Orlando,FL,32801,clean,Multi-Family / Rental
+POL-000271,Mark Roberts,2042,ORANGE CENTE RBLVD,Suite 969,Orlando,FL,32805,misspelling,Single Family Residence
+POL-000272,Vincent Jackson,73728,BILLINGS RD,,Hopatcong,NJ,07843,outdated_address,Single Family Residence
+POL-000273,Julia Norris,147,BELL AVE,,Hopatcong,NJ,07843,missing_unit,Multi-Family / Rental
+POL-000274,Jeffrey Rodriguez,826,CHEYENNE ST,,Golden,CO,80401,clean,Single Family Residence
+POL-000275,James Miller,519,17THS T,,Des Moines,IA,50309,misspelling,Vacant Land
+POL-000276,Nichole Walker,81339,BELL AVE,,Des Moines,IA,50321,outdated_address,Single Family Residence
+POL-000277,Cheyenne Parsons,53,POITN PLEASANT RD,Apt. 181,Hopatcong,NJ,07843,misspelling,Single Family Residence
+POL-000278,Tyler Brewer,1020,15TH ST,,Denver,CO,80202,clean,Single Family Residence
+POL-000279,Brian Scott,90786,W 13TH AVE,,Denver,CO,80204,outdated_address,Single Family Residence
+POL-000280,Christian Malone,247,HENRY ST,,New York,NY,10002,clean,Multi-Family / Rental
+POL-000281,Trevor Burton,407,3RD AVE,,New York,NY,10016,clean,Single Family Residence
+POL-000282,Justin Riley,811,CLEVELAND ST,,Clearwater,FL,33755,clean,Single Family Residence
+POL-000283,Jeremy Turner,94414,CHEYENNE ST,Suite 527,Golden,CO,80401,outdated_address,Single Family Residence
+POL-000284,Anthony Romero,57046,WELDON RD,,Oak Ridge,NJ,07438,outdated_address,Vacant Land
+POL-000285,Jesse Brown,138,LAKESIDE BLVD,,Landing,NJ,07850,clean,Single Family Residence
+POL-000286,Angela Lin,110,WELLESLEY TRL,,Hopatcong,NJ,07843,clean,Multi-Family / Rental
+POL-000287,Lisa Hunter,96228,SW 3RD AVE,,Miami,FL,33129,outdated_address,Commercial
+POL-000288,Julian Conner,516,E GRAND AVE,,Des Moines,IA,50309,clean,Commercial
+POL-000289,John Hernandez,1112,E 4THA VE,Apt. 793,Denver,CO,80218,misspelling,Single Family Residence
+POL-000290,Brian Nolan,1035,PEARL ST,,Boulder,CO,80302,clean,Single Family Residence
+POL-000291,Michael Ritter,3155,N ANKENY BLVD,Suite 182,Ankeny,IA,50023,clean,Multi-Family / Rental
+POL-000292,Lisa Cox,37,W 12TH ST,,New York,NY,10011,clean,Condominium / Townhome
+POL-000293,Jasmine Schroeder,2892,HURON ST,,Denver,CO,80202,clean,Single Family Residence
+POL-000294,Amy Mccoy,1035,PEARL ST,,Boulder,CO,80302,missing_unit,Single Family Residence
+POL-000295,Gary Grant,2635,JUNIPER AVE,,Boulder,CO,80304,clean,Single Family Residence
+POL-000296,David York,714,CLEVELAND ST,,Clearwater,FL,33755,clean,Single Family Residence
+POL-000297,Lindsey Hernandez,63,CANAL ST,,Landing,NJ,07850,clean,Single Family Residence
+POL-000298,Matthew Bates,72456,SE LORENZ DR,Apt. 925,Ankeny,IA,50021,outdated_address,Single Family Residence
+POL-000299,Michael Miller,1158,W 6TH ST,,Jacksonville,FL,32209,clean,Multi-Family / Rental
+POL-000300,Maria Murphy,11,DEER TRL,,Hopatcong,NJ,07843,missing_unit,Condominium / Townhome
+POL-000301,Michael Valentine,85,FRED L MAXWELL BLVD,,Orlando,FL,32805,missing_unit,Multi-Family / Rental
+POL-000302,Susan Davis DDS,64336,5TH ST,,West Des Moines,IA,50265,outdated_address,Condominium / Townhome
+POL-000303,Daniel Meza,2,BILLINGSR D,Suite 054,Hopatcong,NJ,07843,misspelling,Single Family Residence
+POL-000304,Edward French,3416,MONCRIEF RD,Suite 332,Clearwater,FL,32209,zip_city_mismatch,Single Family Residence
+POL-000305,Kimberly Rodgers,25TH,W 25TH ST,,Jacksonville,FL,32209,clean,Condominium / Townhome
+POL-000306,Brittany White,2306,MONCRIE FRD,Apt. 592,Jacksonville,FL,32209,misspelling,Single Family Residence
+POL-000307,Lori Orr,747,NW 13TH AVE,,Miami,FL,33125,missing_unit,Multi-Family / Rental
+POL-000308,Amanda Diaz,1440,2T8H ST,,Boulder,CO,80303,misspelling,Single Family Residence
+POL-000309,Tracy Bishop,519,17TH ST,,Des Moines,IA,50309,clean,Multi-Family / Rental
+POL-000310,Rachel Young,1499,BLAKE ST,,Denver,CO,80202,clean,Single Family Residence
+POL-000311,Travis Joyce,108,ALEXANDER WOODS DR,Apt. 473,Orlando,FL,33563,zip_city_mismatch,Vacant Land
+POL-000312,Tracy Montoya,1717,N BAYSHORE DR,Suite 468,Miami,FL,33132,clean,Single Family Residence
+POL-000313,Brenda Wright,1400,16T HST,,Denver,CO,80202,misspelling,Condominium / Townhome
+POL-000314,Kelli Martinez,221,TURNER ST,,Clearwater,FL,33756,missing_unit,Single Family Residence
+POL-000315,Christopher Cole,2,BILLINGS RD,,Hopatcong,NJ,07843,missing_unit,Condominium / Townhome
+POL-000316,Sandra Davis,1543,SW 7TH ST,,Miami,FL,33135,clean,Vacant Land
+POL-000317,James Brooks,1456,LAKEVIEW RD,,Clearwater,FL,33756,missing_unit,Single Family Residence
+POL-000318,Brad Walker,1068,WELDON RD,,Oak Ridge,NJ,07438,clean,Single Family Residence
+POL-000319,Brett Espinoza,86964,N MOORE ST,,New York,NY,10013,outdated_address,Condominium / Townhome
+POL-000320,Charles Johnson,110,SE 9TH ST,,Des Moines,IA,50309,clean,Multi-Family / Rental
+POL-000321,Susan Smith,2892,HURON ST,Suite 277,Denver,CO,80202,clean,Single Family Residence
+POL-000322,Ashley Roberts,70461,SE 10TH ST,Apt. 289,Des Moines,IA,50309,outdated_address,Condominium / Townhome
+POL-000323,Riley Bryant,65,BANNOCK ST,Suite 103,Denver,CO,80223,clean,Single Family Residence
+POL-000324,Jose Allen,945,19TH ST,Apt. 798,West Des Moines,IA,50314,zip_city_mismatch,Single Family Residence
+POL-000325,Jeffrey Mendez,138,LAKESIDE BLVD,,Landing,NJ,07850,clean,Single Family Residence
+POL-000326,Jason Beck,407,SE DELAWARE AVE,,Ankeny,IA,50021,clean,Single Family Residence
+POL-000327,William Jones,122,ASHLAND PL,,Brooklyn,NY,11201,missing_unit,Multi-Family / Rental
+POL-000328,Veronica King,1136,N E7TH LN,Apt. 670,Ankeny,IA,50021,misspelling,Vacant Land
+POL-000329,Richard Cooper,73,W FALGLER ST,,Miami,FL,33130,misspelling,Single Family Residence
+POL-000330,Lori Ingram,85168,JEFFERSON COUNTY PKWY,,Golden,CO,80401,outdated_address,Multi-Family / Rental
+POL-000331,Robin Thompson,1159,NW 1ST PL,,Miami,FL,33136,missing_unit,Single Family Residence
+POL-000332,Julie Dominguez,524,NW 11T HST,,Miami,FL,33136,misspelling,Multi-Family / Rental
+POL-000333,Dakota Moody,1017,FEDERAL ST,Apt. 217,Orlando,FL,32805,clean,Single Family Residence
+POL-000334,Emily Collins,18TH,W 18TH ST,,Jacksonville,FL,32209,clean,Commercial
+POL-000335,Matthew Mitchell,91,WELDON RD,Suite 874,Lake Hopatcong,NJ,07849,clean,Single Family Residence
+POL-000336,Jessica Ross,1543,SW 7TH ST,Apt. 541,Miami,FL,33135,clean,Multi-Family / Rental
+POL-000337,Tyler Morgan,110,WELLESLEY TRL,,Hopatcong,NJ,07843,clean,Single Family Residence
+POL-000338,Michael Richardson,1150,NW 8TH STREET RD,,Jacksonville,FL,33136,zip_city_mismatch,Multi-Family / Rental
+POL-000339,Debra Miller,175,COLUMBIA HTS,,Brooklyn,NY,11201,clean,Commercial
+POL-000340,Jeffrey Carney,73850,LAKESIDE BLVD,,Landing,NJ,07850,outdated_address,Single Family Residence
+POL-000341,Garrett Phillips,1158,W 6TH ST,,Jacksonville,FL,32209,missing_unit,Commercial
+POL-000342,Heather Williams,209,5TH ST,Suite 962,West Des Moines,IA,50265,clean,Single Family Residence
+POL-000343,Heather Bolton,1447,W 1STS T,,Jacksonville,FL,32209,misspelling,Vacant Land
+POL-000344,Robert Shelton,340,SE DELAWARE AVE,Suite 016,Windsor Heights,IA,50021,zip_city_mismatch,Single Family Residence
+POL-000345,Austin Osborne,1150,NW 8TH STREET RD,,Miami,FL,33136,missing_unit,Multi-Family / Rental
+POL-000346,James Bradley,2892,HURON ST,,Denver,CO,80202,missing_unit,Single Family Residence
+POL-000347,Billy Taylor,2502,N WILDER RD,Apt. 755,Plant City,FL,33565,clean,Commercial
+POL-000348,Brian Fitzgerald,465,ELATI ST,Suite 654,Denver,CO,80204,clean,Single Family Residence
+POL-000349,Reginald Padilla,206,NE DELAWARE AVE,Suite 868,Ankeny,IA,50021,clean,Condominium / Townhome
+POL-000350,Chad Jones,24,CLINTON ST,Apt. 947,Brooklyn,NY,11201,clean,Multi-Family / Rental
