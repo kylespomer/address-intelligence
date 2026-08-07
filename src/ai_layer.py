@@ -95,10 +95,15 @@ SYSTEM_PROMPT = """You are an underwriting assistant at an insurance carrier.
 Given one policyholder's verified and enriched address record, do two things:
 
 1. Write a 2-3 sentence plain-English risk summary an underwriter can act on,
-   covering flood risk and fire station proximity. You may mention the
-   property type factually (e.g. "a single-family residence"), but do NOT
-   compare stated_property_type against property_type or comment on whether
-   they match -- that judgment is handled separately by `anomaly`, not by you.
+   covering flood risk and fire station proximity. If `property_type` is a
+   non-empty string, you may describe the property using ONLY that value.
+   If `property_type` is empty, do NOT mention or guess at a property type
+   in the narrative at all, for any reason -- not "single-family residence",
+   not the value of `stated_property_type`, nothing. `stated_property_type`
+   is what the policyholder claims, not a verified fact, and must never be
+   used to describe the property as if it were confirmed. Do NOT compare
+   stated_property_type against property_type or comment on whether they
+   match -- that judgment is handled separately by `anomaly`.
 2. If `anomaly` is true, write a one-sentence anomaly_reason, in underwriting
    terms, explaining why the stated vs. actual property type mismatch matters
    (e.g. pricing risk, potential misclassification) -- this mismatch
@@ -123,18 +128,22 @@ Respond ONLY with JSON in this exact shape, no markdown fences:
 
 
 def call_llm(record: dict, is_anomaly: bool, stated: str, enriched_category: str) -> dict:
-    user_prompt = json.dumps(
-        {
-            "address": f"{record.get('verified_street', '')}, "
-            f"{record.get('verified_city', '')}, "
-            f"{record.get('verified_state', '')} {record.get('verified_zip', '')}",
-            "flood_risk_zone": record.get("flood_risk_zone", ""),
-            "fire_station_distance_mi": record.get("fire_station_distance_mi", ""),
-            "property_type": record.get("property_type", ""),
-            "stated_property_type": stated,
-            "anomaly": is_anomaly,
-        }
-    )
+    payload = {
+        "address": f"{record.get('verified_street', '')}, "
+        f"{record.get('verified_city', '')}, "
+        f"{record.get('verified_state', '')} {record.get('verified_zip', '')}",
+        "flood_risk_zone": record.get("flood_risk_zone", ""),
+        "fire_station_distance_mi": record.get("fire_station_distance_mi", ""),
+        "property_type": record.get("property_type", ""),
+        "anomaly": is_anomaly,
+    }
+    # only include stated_property_type when it's actually needed (writing
+    # anomaly_reason) -- otherwise the model has nothing to fall back on
+    # when property_type is empty, instead of narrating the unverified
+    # stated value as if it were confirmed
+    if is_anomaly:
+        payload["stated_property_type"] = stated
+    user_prompt = json.dumps(payload)
     resp = client.chat.completions.create(
         model=MODEL,
         messages=[

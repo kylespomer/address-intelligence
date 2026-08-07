@@ -24,6 +24,7 @@ src/
   validate_geocode.py      Precisely verification + geocoding calls
   enrich.py                Precisely location enrichment calls
   ai_layer.py              risk narrative + anomaly-flagging AI step
+  app.py                   Streamlit UI -- flagged anomalies as cards with a map
 notebooks/
   demo.ipynb               optional end-to-end walkthrough
 business_summary.md        one-page VP-facing impact summary
@@ -60,6 +61,17 @@ pulls real addresses via Precisely's own property data so every synthetic record
 real base address before errors are injected. It supports `--resume` to pick up cities it
 couldn't reach on a prior run (the public API rate-limits after a burst of requests; see its
 docstring).
+
+## Reviewing results in the browser
+
+```
+streamlit run src/app.py
+```
+
+Reads `data/04_ai_narratives.csv` and shows overall pipeline stats (match rate, anomaly count) plus
+every flagged anomaly as a card: property details, a map of the geocoded location, and the AI-written
+risk narrative and anomaly explanation. Works against a `--sample` run — doesn't need the full
+350-record dataset to be useful.
 
 ## Credit budget
 

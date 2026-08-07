@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "streamlit-app",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd /Users/Kyle.J.Spomer/Documents/address-intelligence && source venv/bin/activate && streamlit run src/app.py --server.headless true"],
+      "port": 8501
+    }
+  ]
+}
